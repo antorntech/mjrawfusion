@@ -129,7 +129,7 @@ const Header = () => {
             })}
             <Link
               to="/contactus"
-              className="inline-block px-5 py-2 bg-gradient-to-l from-[#04cafb] to-[#039dda] text-white rounded-md shadow-lg"
+              className="inline-block px-5 py-3 bg-gradient-to-l from-[#04cafb] to-[#039dda] text-white rounded-md shadow-lg"
             >
               Get In Touch
             </Link>
