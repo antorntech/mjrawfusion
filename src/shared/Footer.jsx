@@ -50,6 +50,12 @@ const Footer = () => {
                 <div className="w-20 h-1 bg-white mt-2"></div>
               </div>
               <ul className="mt-5 flex flex-col gap-4">
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-[1px] mt-3 bg-white"></div>
+                  <span className="text-white">
+                    158/1, Rayerbazar, Hazaribagh, Dhaka-1209 Bangladesh
+                  </span>
+                </li>
                 <li className="flex items-center gap-3">
                   <div className="w-5 h-[1px] bg-white"></div>
                   <span className="text-white">
@@ -59,12 +65,6 @@ const Footer = () => {
                 <li className="flex items-center gap-3">
                   <div className="w-5 h-[1px] bg-white"></div>
                   <span className="text-white">mj.rawfusion@gmail.com</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <div className="w-5 h-[1px] bg-white"></div>
-                  <span className="text-white">
-                    158/1, Rayerbazar, Hazaribagh, Dhaka-1209 Bangladesh
-                  </span>
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="w-5 h-[1px] bg-white"></div>

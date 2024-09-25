@@ -14,11 +14,11 @@ const PageHeader = ({ title }) => {
     >
       <div className="max-w-screen-xl mx-auto">
         <div className="w-full h-full flex flex-col items-center justify-center mt-5 md:mt-12">
-          <h1 className="mr-0 md:mr-[100px] text-white text-3xl lg:text-6xl font-bold animate__animated animate__fadeInUp">
+          <h1 className="mr-0 md:mr-[110px] text-white text-3xl lg:text-6xl font-bold animate__animated animate__fadeInUp">
             {title}
           </h1>
-          <div className="animate__animated animate__fadeInUp mt-1 md:mt-2 mr-0 md:mr-[100px]">
-            <Link to="/" className="text-white text-lg">
+          <div className="animate__animated animate__fadeInUp mt-1 md:mt-2 mr-0 md:mr-[110px]">
+            <Link to="/" className="text-white text-sm md:text-lg">
               Home
             </Link>
             <span className="text-gray-500 capitalize">
