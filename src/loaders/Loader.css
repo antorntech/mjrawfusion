@@ -213,3 +213,9 @@
 .slice:nth-child(6)::after {
   background-color: #0492b6;
 }
+
+@media screen and (max-width: 720px) {
+  .loader {
+    --uib-size: 90px;
+  }
+}
