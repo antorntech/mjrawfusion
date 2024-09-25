@@ -191,17 +191,17 @@
 
 .slice:nth-child(2)::before,
 .slice:nth-child(2)::after {
-  background-color: #333eff;
+  background-color: #339cff;
 }
 
 .slice:nth-child(3)::before,
 .slice:nth-child(3)::after {
-  background-color: #3334ff;
+  background-color: #339cff;
 }
 
 .slice:nth-child(4)::before,
 .slice:nth-child(4)::after {
-  background-color: #33ffdd;
+  background-color: #339cff;
 }
 
 .slice:nth-child(5)::before,
