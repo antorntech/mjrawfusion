@@ -82,9 +82,9 @@ const HomeAbout = () => {
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-              src="/images/two-pharmacists.jpg"
-              alt="two-pharmacists.jpg"
-              className="w-full object-contain rounded-md"
+              src="/images/home-about-bg.jpg"
+              alt="home-about-bg.jpg"
+              className="w-full object-contain rounded-md shadow-md"
             />
           </div>
         </div>
