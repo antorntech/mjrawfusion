@@ -34,12 +34,12 @@ const HomeAbout = () => {
               vulputate suspendisse blandit.
             </p>
             <div className="w-full relative">
-              <div className="w-full absolute -bottom-5 left-0 md:-bottom-8 md:left-24 z-40">
+              <div className="w-full absolute -bottom-5 left-0 md:-bottom-8 md:left-0 z-40 ">
                 <div
                   data-aos="fade-in"
                   data-aos-delay="600"
                   data-aos-duration="1000"
-                  className="w-full flex items-center justify-center gap-3 md:gap-12 my-5 custom-shadow bg-white p-5 rounded-md"
+                  className="w-full flex items-center justify-center gap-3 md:gap-12 my-5 custom-shadow bg-white border-[1px] border-[#04cafba1] p-5 rounded-md"
                 >
                   <div
                     data-aos="fade-up"
@@ -84,7 +84,7 @@ const HomeAbout = () => {
               data-aos-duration="1000"
               src="/images/home-about-bg.jpg"
               alt="home-about-bg.jpg"
-              className="w-full object-contain rounded-md shadow-md"
+              className="w-full object-contain rounded-md"
             />
           </div>
         </div>
