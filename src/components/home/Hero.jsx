@@ -9,7 +9,7 @@ const Hero = () => {
           <p className="text-white uppercase text-sm md:text-[26px] mb-0 md:mb-12 animate__animated animate__fadeInUp">
             Get The Best Service From MJRAWFUSION
           </p>
-          <h1 className="text-3xl md:text-[120px] font-bold text-white py-2 animate__animated animate__fadeInUp">
+          <h1 className="text-3xl md:text-[100px] font-bold text-white py-2 animate__animated animate__fadeInUp">
             Sourcing Excellence
           </h1>
           <Link
