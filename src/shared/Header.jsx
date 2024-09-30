@@ -23,32 +23,6 @@ const Header = () => {
     };
   }, []);
 
-  const menuLeft = [
-    {
-      label: "Home",
-      path: "/",
-    },
-    {
-      label: "About Us",
-      path: "/aboutus",
-    },
-    {
-      label: "Services",
-      path: "/services",
-    },
-  ];
-
-  const menuRight = [
-    {
-      label: "Industries",
-      path: "/industries",
-    },
-    {
-      label: "Divisions",
-      path: "/divisions",
-    },
-  ];
-
   const mainMenu = [
     {
       label: "Home",
@@ -63,12 +37,12 @@ const Header = () => {
       path: "/services",
     },
     {
-      label: "Industries",
-      path: "/industries",
+      label: "Principals",
+      path: "/principals",
     },
     {
-      label: "Divisions",
-      path: "/divisions",
+      label: "Customers",
+      path: "/customers",
     },
   ];
 
@@ -85,15 +59,15 @@ const Header = () => {
       >
         <div className="max-w-screen-xl mx-auto lg:flex justify-between items-center">
           <div className="flex items-center gap-8">
-            {menuLeft.map((item, index) => {
+            {mainMenu.slice(0, 3).map((item, index) => {
               return (
                 <NavLink
                   key={index}
                   to={item.path}
                   className={({ isActive }) =>
                     isActive
-                      ? "text-[#04cafb] text-[20px] font-semibold transition duration-300"
-                      : "text-[20px] font-[500] hover:text-[#04cafb] transition duration-300"
+                      ? "text-[#04cafb] text-[20px] transition duration-300"
+                      : "text-[20px] hover:text-[#04cafb] transition duration-300"
                   }
                 >
                   {item.label}
@@ -112,15 +86,15 @@ const Header = () => {
             </Link>
           </div>
           <div className="flex items-center gap-8">
-            {menuRight.map((item, index) => {
+            {mainMenu.slice(3, 5).map((item, index) => {
               return (
                 <NavLink
                   key={index}
                   to={item.path}
                   className={({ isActive }) =>
                     isActive
-                      ? "text-[#04cafb] text-[20px] font-semibold transition duration-300"
-                      : "text-[20px] font-[500] hover:text-[#04cafb] transition duration-300"
+                      ? "text-[#04cafb] text-[20px] transition duration-300"
+                      : "text-[20px] hover:text-[#04cafb] transition duration-300"
                   }
                 >
                   {item.label}

@@ -8,6 +8,8 @@ import Divisions from "../pages/Divisions";
 import ContactUs from "../pages/ContactUs";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import TermsCondition from "../pages/TermsCondition";
+import OurPrinciples from "../pages/OurPrinciples";
+import OurCustomers from "../pages/OurCustomers";
 
 const AppRoutes = () => {
   return (
@@ -16,8 +18,8 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/industries" element={<Industries />} />
-        <Route path="/divisions" element={<Divisions />} />
+        <Route path="/principals" element={<OurPrinciples />} />
+        <Route path="/customers" element={<OurCustomers />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/termscondition" element={<TermsCondition />} />
