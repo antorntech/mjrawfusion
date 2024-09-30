@@ -21,7 +21,7 @@ const PageHeader = ({ title }) => {
             <Link to="/" className="text-white text-sm md:text-lg">
               Home
             </Link>
-            <span className="text-gray-500 capitalize">
+            <span className="text-cyan-500 capitalize">
               {" "}
               <i class="fa-solid fa-angles-right text-white"></i>{" "}
               {location.pathname.split("/").pop()}
