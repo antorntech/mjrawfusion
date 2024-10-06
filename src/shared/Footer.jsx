@@ -69,6 +69,15 @@ const Footer = () => {
                 <li className="flex items-center gap-3">
                   <div className="w-5 h-[1px] bg-white"></div>
                   <Link
+                    to="/career"
+                    className="text-white hover:text-[#04cafb] transition-all duration-500"
+                  >
+                    Career
+                  </Link>
+                </li>
+                <li className="flex items-center gap-3">
+                  <div className="w-5 h-[1px] bg-white"></div>
+                  <Link
                     to="/privacypolicy"
                     className="text-white hover:text-[#04cafb] transition-all duration-500"
                   >

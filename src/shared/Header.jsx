@@ -25,7 +25,7 @@ const Header = () => {
 
   const mainMenu = [
     {
-      label: "Home",
+      icon: <i class="fa-solid fa-house text-3xl"></i>,
       path: "/",
     },
     {
@@ -43,6 +43,10 @@ const Header = () => {
     {
       label: "Customers",
       path: "/customers",
+    },
+    {
+      label: "Career",
+      path: "/career",
     },
   ];
 
@@ -70,6 +74,7 @@ const Header = () => {
                       : "text-[20px] hover:text-[#04cafb] transition duration-300"
                   }
                 >
+                  {item.icon ? item.icon : null}
                   {item.label}
                 </NavLink>
               );
@@ -114,13 +119,13 @@ const Header = () => {
       {/* Mobile menu */}
       <div className="w-full md:hidden fixed top-0 left-0 z-50 bg-white shadow-md">
         <div className="p-3 flex items-center justify-between lg:hidden">
-          <div className="border-2 border-[#04cafb] px-2 rounded-md">
-            <i
-              className={`fa-solid transition-all ease-out duration-500 mt-1 ${
-                menuOpen ? "fa-xmark" : "fa-bars"
-              } text-[25px] text-[#04cafb]`}
-              onClick={() => setMenuOpen(!menuOpen)}
-            ></i>
+          <div>
+            <Link
+              to="/contactus"
+              className="inline-block p-2 text-[12px] bg-gradient-to-l from-[#04cafb] to-[#039dda] text-white rounded-md shadow-lg"
+            >
+              Get In Touch
+            </Link>
           </div>
           <div>
             <Link to="/">
@@ -131,13 +136,13 @@ const Header = () => {
               />
             </Link>
           </div>
-          <div>
-            <Link
-              to="/contactus"
-              className="inline-block p-2 text-[12px] bg-gradient-to-l from-[#04cafb] to-[#039dda] text-white rounded-md shadow-lg"
-            >
-              Get In Touch
-            </Link>
+          <div className="border-2 border-[#04cafb] px-2 rounded-md">
+            <i
+              className={`fa-solid transition-all ease-out duration-500 mt-1 ${
+                menuOpen ? "fa-xmark" : "fa-bars"
+              } text-[25px] text-[#04cafb]`}
+              onClick={() => setMenuOpen(!menuOpen)}
+            ></i>
           </div>
         </div>
 
