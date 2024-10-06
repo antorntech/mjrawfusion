@@ -2,75 +2,88 @@ import React from "react";
 import PageHeader from "../components/PageHeader/PageHeader";
 
 const OurPrinciples = () => {
-  const principles = [
+  const logos = [
     {
       id: 1,
-      logo: "https://unclenephew.com/img/principals/01.jpg",
+      logo: "/images/principals/1.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 2,
-      logo: "https://unclenephew.com/img/principals/02.jpg",
+      logo: "/images/principals/2.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 3,
-      logo: "https://unclenephew.com/img/principals/03.jpg",
+      logo: "/images/principals/3.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 4,
-      logo: "https://unclenephew.com/img/principals/04.jpg",
+      logo: "/images/principals/4.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 5,
-      logo: "https://unclenephew.com/img/principals/05.jpg",
+      logo: "/images/principals/5.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 6,
-      logo: "https://unclenephew.com/img/principals/06.jpg",
+      logo: "/images/principals/6.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 7,
-      logo: "https://unclenephew.com/img/principals/07.jpg",
+      logo: "/images/principals/7.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 8,
-      logo: "https://unclenephew.com/img/principals/08.jpg",
+      logo: "/images/principals/8.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 9,
-      logo: "https://unclenephew.com/img/principals/09.jpg",
+      logo: "/images/principals/9.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 10,
-      logo: "https://unclenephew.com/img/principals/10.jpg",
+      logo: "/images/principals/10.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 11,
-      logo: "https://unclenephew.com/img/principals/11.jpg",
+      logo: "/images/principals/11.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 12,
-      logo: "https://unclenephew.com/img/principals/12.jpg",
+      logo: "/images/principals/12.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
   ];
   return (
     <>
       <PageHeader title="Principals" />
-      <div className="px-5 py-[20px] md:py-[80px] lg:py-[100px]">
-        <div className="max-w-screen-xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
-            {principles.map((principle) => (
-              <div
-                key={principle.id}
-                className="w-full rounded-[10px] overflow-hidden "
-              >
-                <img
-                  src={principle.logo}
-                  alt="principle"
-                  className="w-full h-full object-cover"
-                />
+      <div className="max-w-screen-xl mx-auto py-[20px] md:py-[40px] lg:py-[80px]">
+        <div className="grid grid-cols-4 gap-4">
+          {logos.map((logo, index) => (
+            <div
+              key={index}
+              className="group relative w-full h-72 hexagon bg-white p-2 m-2 overflow-hidden flex items-center justify-center"
+            >
+              <img
+                src={logo.logo}
+                alt=""
+                className="w-full h-full absolute top-0 left-0 group-hover:translate-y-[-53%] group-hover:translate-x-[-70%] group-hover:-rotate-90 transition-transform duration-1000"
+              />
+              <div className="w-full h-full bg-gray-500 flex items-center justify-center">
+                <p className="text-white w-2/3 text-center">{logo.name}</p>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </>
