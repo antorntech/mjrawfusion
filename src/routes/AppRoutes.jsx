@@ -10,6 +10,8 @@ import PrivacyPolicy from "../pages/PrivacyPolicy";
 import TermsCondition from "../pages/TermsCondition";
 import OurPrinciples from "../pages/OurPrinciples";
 import OurCustomers from "../pages/OurCustomers";
+import NewsLetter from "../pages/NewsLetter";
+import Career from "../pages/Career";
 
 const AppRoutes = () => {
   return (
@@ -23,6 +25,8 @@ const AppRoutes = () => {
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/termscondition" element={<TermsCondition />} />
+        <Route path="/news-letter" element={<NewsLetter />} />
+        <Route path="/career" element={<Career />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </div>

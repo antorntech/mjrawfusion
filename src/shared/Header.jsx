@@ -106,12 +106,28 @@ const Header = () => {
                 </NavLink>
               );
             })}
-            <Link
-              to="/contactus"
-              className="inline-block px-5 py-3 bg-gradient-to-l from-[#04cafb] to-[#039dda] text-white rounded-md shadow-lg"
-            >
-              Get In Touch
-            </Link>
+            <div className="relative group">
+              <Link
+                to="/contactus"
+                className="inline-block px-8 py-3 bg-gradient-to-l from-[#04cafb] to-[#039dda] text-white rounded-md group-hover:rounded-none shadow-lg"
+              >
+                <span className="me-2">More</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </Link>
+              <div className="hidden absolute top-12 opacity-0 group-hover:top-12 group-hover:opacity-100 transition-all duration-500 w-full lg:flex flex-col justify-center gap-3 bg-white text-black p-3">
+                <Link to="/career" className="hover:text-[#04cafb]">
+                  Career
+                </Link>
+                <hr className="text-gray-300" />
+                <Link to="/news-letter" className="hover:text-[#04cafb]">
+                  News Letter
+                </Link>
+                <hr className="text-gray-300" />
+                <Link to="/contactus" className="hover:text-[#04cafb]">
+                  Contact Us
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
