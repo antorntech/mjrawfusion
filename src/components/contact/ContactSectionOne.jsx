@@ -68,7 +68,7 @@ const ContactSectionOne = () => {
                   Call us
                 </h2>
                 <p className="mt-2 text-gray-700">
-                  +88-01601-900949 <br /> +88-01920-810804
+                  +88-01601-900949 <br /> +88-01920-810404
                 </p>
               </div>
             </div>
