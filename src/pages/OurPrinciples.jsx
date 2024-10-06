@@ -68,7 +68,7 @@ const OurPrinciples = () => {
     <>
       <PageHeader title="Principals" />
       <div className="max-w-screen-xl mx-auto py-[20px] md:py-[40px] lg:py-[80px]">
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-4">
           {logos.map((logo, index) => (
             <div
               key={index}
