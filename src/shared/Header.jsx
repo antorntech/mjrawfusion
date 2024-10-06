@@ -25,7 +25,7 @@ const Header = () => {
 
   const mainMenu = [
     {
-      icon: <i class="fa-solid fa-house text-3xl"></i>,
+      icon: <i class="fa-solid fa-house text-3xl text-[#04cafb]"></i>,
       path: "/",
     },
     {
