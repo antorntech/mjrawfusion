@@ -94,7 +94,6 @@
   top: 50%;
   width: 50px;
   height: 50px;
-  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
@@ -108,7 +107,7 @@
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-  background: linear-gradient(124deg, #5a9ff9, #199bff, #f9bf20);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .swiper-button-prev {

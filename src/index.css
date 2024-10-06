@@ -195,3 +195,18 @@ body {
 .hexagon {
   clip-path: polygon(25% 6.7%, 75% 6.7%, 95% 50%, 75% 93.3%, 25% 93.3%, 5% 50%);
 }
+
+.item {
+  width: 100%;
+  position: relative; /* Allow absolute positioning of content inside */
+}
+
+/* Odd children styling */
+.item:nth-child(odd) {
+  transform: translateY(75px); /* Lower odd items */
+}
+
+/* Even children styling */
+.item:nth-child(even) {
+  transform: translateY(-60px); /* Even items stay in their normal position */
+}

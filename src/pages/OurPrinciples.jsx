@@ -63,16 +63,36 @@ const OurPrinciples = () => {
       logo: "/images/principals/12.png",
       name: "Leading international supplier for soy proteins and soy health-care foods",
     },
+    {
+      id: 13,
+      logo: "/images/principals/1.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 14,
+      logo: "/images/principals/2.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 15,
+      logo: "/images/principals/3.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 16,
+      logo: "/images/principals/4.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
   ];
   return (
     <>
       <PageHeader title="Principals" />
-      <div className="max-w-screen-xl mx-auto py-[20px] md:py-[40px] lg:py-[80px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-4">
+      <div className="max-w-screen-xl mx-auto py-[20px] md:py-[40px] lg:py-[120px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full h-full">
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="group relative w-full h-72 hexagon bg-white p-2 m-2 overflow-hidden flex items-center justify-center"
+              className="item group relative w-full h-[300px] hexagon bg-white p-2 overflow-hidden flex items-center justify-center"
             >
               <img
                 src={logo.logo}
