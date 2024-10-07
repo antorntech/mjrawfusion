@@ -2,7 +2,12 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <div className="px-5 pb-[20px] md:pb-[80px] lg:pb-[100px]">
+    <div
+      className="px-5 pb-[20px] md:pb-[80px] lg:pb-[100px]"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+    >
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
           <div className="col-span-1">

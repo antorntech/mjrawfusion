@@ -10,6 +10,7 @@ import HomeDivisions from "../components/home/HomeDivisions";
 import AnimatedSlider from "../animated-slider/AnimatedSlider";
 import WelcomeText from "../components/home/WelcomeText";
 import WhyChooseUs from "../components/home/WhyChooseUs";
+import OurAchievements from "../components/home/OurAchievements";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <AnimatedSlider />
       <WelcomeText />
       <WhyChooseUs />
+      <OurAchievements />
       <HomeAbout />
       <HomeServices />
       <DiscoverMore />

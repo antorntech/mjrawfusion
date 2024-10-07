@@ -2,7 +2,12 @@ import React from "react";
 
 const WelcomeText = () => {
   return (
-    <div className="px-5 py-[20px] md:py-[80px] lg:py-[100px]">
+    <div
+      className="px-5 py-[20px] md:py-[80px] lg:py-[100px]"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+    >
       <div className="max-w-screen-xl mx-auto">
         <img
           src="/images/welcome-text.png"
