@@ -122,7 +122,7 @@ const PrivacyPolicy = () => {
           </p>
           <p className="mt-4 text-gray-700">
             <strong>Email:</strong> mj.rawfusion@gmail.com <br />
-            <strong>Phone:</strong> +88-01601-900949 / +88-01920-810804
+            <strong>Phone:</strong> +88-01601-900949 / +88-01920-810404
           </p>
         </section>
 
