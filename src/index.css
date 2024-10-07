@@ -226,6 +226,13 @@ body {
   transform: translateY(-60px); /* Even items stay in their normal position */
 }
 
+@media screen and (max-width: 768px) {
+  /* Even children styling */
+  .item:nth-child(even) {
+    transform: translateY(75px); /* Even items stay in their normal position */
+  }
+}
+
 .principals-bg {
   background: rgb(0, 0, 0);
   background: linear-gradient(
