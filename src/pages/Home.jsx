@@ -1,5 +1,4 @@
 import React from "react";
-import FeaturedServices from "../components/home/FeaturedServices";
 import HomeAbout from "../components/home/HomeAbout";
 import HomeServices from "../components/home/HomeServices";
 import DiscoverMore from "../components/home/DiscoverMore";
@@ -9,12 +8,15 @@ import HomeContactForm from "../components/home/HomeContactForm";
 import HomeIndustries from "../components/home/HomeIndustries";
 import HomeDivisions from "../components/home/HomeDivisions";
 import AnimatedSlider from "../animated-slider/AnimatedSlider";
+import WelcomeText from "../components/home/WelcomeText";
+import WhyChooseUs from "../components/home/WhyChooseUs";
 
 const Home = () => {
   return (
     <div>
       <AnimatedSlider />
-      <FeaturedServices />
+      <WelcomeText />
+      <WhyChooseUs />
       <HomeAbout />
       <HomeServices />
       <DiscoverMore />
