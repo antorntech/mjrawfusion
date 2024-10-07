@@ -164,7 +164,7 @@ const Principals = () => {
         {logos.map((logo, index) => (
           <div
             key={index}
-            className="item group relative w-full h-[200px] hexagon bg-white p-2 overflow-hidden flex items-center justify-center"
+            className="item group relative w-full h-[250px] md:h-[200px] hexagon bg-white p-2 overflow-hidden flex items-center justify-center"
           >
             <img
               src={logo.logo}
