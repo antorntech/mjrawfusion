@@ -3,7 +3,12 @@ import { Link } from "react-router-dom";
 
 const GoverningBoard = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-5 md:px-0">
+    <div
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      className="max-w-screen-xl mx-auto px-5 md:px-0"
+    >
       <div>
         <h2 className="text-2xl md:text-4xl font-bold mb-2 md:mb-5 uppercase">
           Governing Board
