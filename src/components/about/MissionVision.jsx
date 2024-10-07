@@ -25,50 +25,14 @@ const MissionVision = () => {
                 </div>
               </div>
               <div className="p-5 mt-5">
-                <h2 className="text-2xl md:text-4xl font-semibold text-center mb-2 uppercase">
+                <h2 className="mt-5 md:mt-[20px] text-2xl md:text-4xl font-semibold text-center mb-2 uppercase">
                   Our Mission
                 </h2>
                 <p className="text-gray-500 text-center">
-                  Our mission is to facilitate seamless access to high-quality
-                  pharmaceutical ingredients, ensuring compliance with industry
-                  standards and regulations. Our experienced team of
-                  professionals leverages their extensive network and market
-                  insights to provide tailored solutions that meet the unique
-                  needs of our clients.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-            className="group shadow-lg"
-          >
-            <div>
-              <img
-                src="/images/about-plan.jpg"
-                alt="about-plan.jpg"
-                className="w-full rounded-tl-lg rounded-tr-lg"
-              />
-            </div>
-            <div className="relative">
-              <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 flex justify-center items-center rounded-full bg-white">
-                <div className="bg-[#04cafb] group-hover:bg-white rounded-full w-16 h-16 flex justify-center items-center transition-all duration-500">
-                  <i class="fa-regular fa-map text-[40px] text-white group-hover:text-[#04cafb] transition-all duration-500"></i>
-                </div>
-              </div>
-              <div className="p-5 mt-5">
-                <h2 className="text-2xl md:text-4xl font-semibold text-center mb-2 uppercase">
-                  Our Plan
-                </h2>
-                <p className="text-gray-500 text-center">
-                  Our plan is to facilitate seamless access to high-quality
-                  pharmaceutical ingredients, ensuring compliance with industry
-                  standards and regulations. Our experienced team of
-                  professionals leverages their extensive network and market
-                  insights to provide tailored solutions that meet the unique
-                  needs of our clients.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptas quaerat iusto numquam, nobis aspernatur dolore
+                  recusandae laborum ducimus maxime amet expedita totam nesciunt
+                  voluptates quas odit aperiam nisi facilis autem?
                 </p>
               </div>
             </div>
@@ -93,14 +57,46 @@ const MissionVision = () => {
                 </div>
               </div>
               <div className="p-5 mt-5">
-                <h2 className="text-2xl md:text-4xl font-semibold text-center mb-2 uppercase">
+                <h2 className="mt-5 md:mt-[20px] text-2xl md:text-4xl font-semibold text-center mb-2 uppercase">
                   Our Vision
                 </h2>
                 <p className="text-gray-500 text-center">
-                  Our commitment is to support the development of safe,
-                  effective and affordable medicines, while building lasting
-                  relationships with our clients and suppliers through integrity
-                  and excellence.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptas quaerat iusto numquam, nobis aspernatur dolore
+                  recusandae laborum ducimus maxime amet expedita totam nesciunt
+                  voluptates quas odit aperiam nisi facilis autem?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            className="group shadow-lg"
+          >
+            <div>
+              <img
+                src="/images/about-plan.jpg"
+                alt="about-plan.jpg"
+                className="w-full rounded-tl-lg rounded-tr-lg"
+              />
+            </div>
+            <div className="relative">
+              <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 flex justify-center items-center rounded-full bg-white">
+                <div className="bg-[#04cafb] group-hover:bg-white rounded-full w-16 h-16 flex justify-center items-center transition-all duration-500">
+                  <i class="fa-regular fa-map text-[40px] text-white group-hover:text-[#04cafb] transition-all duration-500"></i>
+                </div>
+              </div>
+              <div className="p-5 mt-5">
+                <h2 className="mt-5 md:mt-[20px] text-2xl md:text-4xl font-semibold text-center mb-2 uppercase">
+                  Our Values
+                </h2>
+                <p className="text-gray-500 text-center">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptas quaerat iusto numquam, nobis aspernatur dolore
+                  recusandae laborum ducimus maxime amet expedita totam nesciunt
+                  voluptates quas odit aperiam nisi facilis autem?
                 </p>
               </div>
             </div>

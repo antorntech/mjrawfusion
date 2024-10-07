@@ -1,9 +1,11 @@
 import React from "react";
 import PageHeader from "../components/PageHeader/PageHeader";
-import HomeAbout from "../components/home/HomeAbout";
 import MissionVision from "../components/about/MissionVision";
 import DiscoverMore from "../components/home/DiscoverMore";
 import WhyChoose from "../components/about/WhyChoose";
+import WhatWeDo from "../components/about/WhatWeDo";
+import OurStrength from "../components/about/OurStrength";
+import OurTeam from "../components/about/OurTeam";
 
 const AboutUs = () => {
   return (
@@ -42,13 +44,13 @@ const AboutUs = () => {
         <MissionVision />
       </div>
       <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
-        <HomeAbout />
+        <WhatWeDo />
       </div>
-      <div>
-        <DiscoverMore />
+      <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
+        <OurStrength />
       </div>
-      <div>
-        <WhyChoose />
+      <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
+        <OurTeam />
       </div>
     </>
   );
