@@ -6,7 +6,7 @@ const OurPrinciples = () => {
   return (
     <>
       <PageHeader title="Principals" />
-      <div className="py-[20px] md:py-[80px] lg:py-[150px] principals-bg">
+      <div className="pb-[20px] md:pb-[80px] lg:pb-[100px] principals-bg">
         <Principals />
       </div>
     </>
