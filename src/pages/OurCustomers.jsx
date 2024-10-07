@@ -5,51 +5,143 @@ const OurCustomers = () => {
   const customers = [
     {
       id: 1,
-      logo: "https://unclenephew.com/img/customers/01.jpg",
+      logo: "/images/principals/1.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 2,
-      logo: "https://unclenephew.com/img/customers/02.jpg",
+      logo: "/images/principals/2.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 3,
-      logo: "https://unclenephew.com/img/customers/03.jpg",
+      logo: "/images/principals/3.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 4,
-      logo: "https://unclenephew.com/img/customers/04.jpg",
+      logo: "/images/principals/4.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 5,
-      logo: "https://unclenephew.com/img/customers/05.jpg",
+      logo: "/images/principals/5.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 6,
-      logo: "https://unclenephew.com/img/customers/06.jpg",
+      logo: "/images/principals/6.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 7,
-      logo: "https://unclenephew.com/img/customers/07.jpg",
+      logo: "/images/principals/7.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 8,
-      logo: "https://unclenephew.com/img/customers/08.jpg",
+      logo: "/images/principals/8.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 9,
-      logo: "https://unclenephew.com/img/customers/09.jpg",
+      logo: "/images/principals/9.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 10,
-      logo: "https://unclenephew.com/img/customers/10.jpg",
+      logo: "/images/principals/10.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 11,
-      logo: "https://unclenephew.com/img/customers/11.jpg",
+      logo: "/images/principals/11.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
     {
       id: 12,
-      logo: "https://unclenephew.com/img/customers/12.jpg",
+      logo: "/images/principals/12.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 13,
+      logo: "/images/principals/1.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 14,
+      logo: "/images/principals/2.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 15,
+      logo: "/images/principals/3.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 16,
+      logo: "/images/principals/4.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 1,
+      logo: "/images/principals/1.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 2,
+      logo: "/images/principals/2.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 3,
+      logo: "/images/principals/3.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 4,
+      logo: "/images/principals/4.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 5,
+      logo: "/images/principals/5.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 6,
+      logo: "/images/principals/6.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 7,
+      logo: "/images/principals/7.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 8,
+      logo: "/images/principals/8.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 9,
+      logo: "/images/principals/9.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 10,
+      logo: "/images/principals/10.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 11,
+      logo: "/images/principals/11.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
+    },
+    {
+      id: 12,
+      logo: "/images/principals/12.png",
+      name: "Leading international supplier for soy proteins and soy health-care foods",
     },
   ];
   return (
