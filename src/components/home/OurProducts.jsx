@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const OurProducts = () => {
   const products = [
@@ -38,7 +39,7 @@ const OurProducts = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 4000,
+    speed: 5000,
     autoplaySpeed: 2000,
     cssEase: "linear",
     responsive: [
@@ -97,10 +98,12 @@ const OurProducts = () => {
         <Slider {...settings}>
           {products.map((product) => (
             <div key={product.id}>
-              <div className="flex items-center justify-center text-center border-2 border-gray-300 p-3 w-full md:w-5/6 h-[150px] mx-auto">
-                <h3 className="text-lg md:text-[30px] leading-10">
-                  {product.name}
-                </h3>
+              <div className="flex items-center justify-center text-center border-2 border-gray-300 rounded-md p-3 w-full md:w-5/6 h-[150px] mx-auto">
+                <Link to="/products">
+                  <h3 className="text-lg md:text-[30px] leading-10">
+                    {product.name}
+                  </h3>
+                </Link>
               </div>
             </div>
           ))}
