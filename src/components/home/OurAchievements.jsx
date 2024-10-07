@@ -8,7 +8,7 @@ const OurAchievements = () => {
       style={{ backgroundImage: `url('/images/our-achievements.jpg')` }}
     >
       <div className="bg-black bg-opacity-60">
-        <div className="max-w-screen-xl mx-auto py-16 md:py-28 px-4 lg:px-8">
+        <div className="max-w-screen-xl mx-auto py-16 md:py-28">
           <div className="grid md:grid-cols-2 gap-8">
             {/* Left Section - Text */}
             <div className="text-white">
@@ -16,15 +16,14 @@ const OurAchievements = () => {
                 Our Achievements
               </h2>
               <p className="mb-6 leading-relaxed">
-                Uncle Nephew & Company Limited has been associated with
-                world-renowned APIs & Excipients manufacturers since its
-                establishment. Our profound humanitarian concerns ensure the
-                highest quality products from our principals in the healthcare
-                sector. We share a significant alliance with our principals
-                which helps them to learn about the healthcare sector in
-                Bangladesh. Our goodwill, knowledge, and experience have
-                extended our portfolio remarkably within the industry both local
-                and global markets.
+                MJRAWFUSION has been associated with world-renowned APIs &
+                Excipients manufacturers since its establishment. Our profound
+                humanitarian concerns ensure the highest quality products from
+                our principals in the healthcare sector. We share a significant
+                alliance with our principals which helps them to learn about the
+                healthcare sector in Bangladesh. Our goodwill, knowledge, and
+                experience have extended our portfolio remarkably within the
+                industry both local and global markets.
               </p>
             </div>
 
