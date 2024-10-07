@@ -225,3 +225,13 @@ body {
 .item:nth-child(even) {
   transform: translateY(-60px); /* Even items stay in their normal position */
 }
+
+.principals-bg {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.747) 53%,
+    rgba(255, 255, 255, 0.6923144257703081) 100%
+  );
+}
