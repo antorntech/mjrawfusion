@@ -10,15 +10,15 @@ const OurStrength = () => {
     >
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
-          <div className="col-span-1">
+          <div className="col-span-1 order-2 md:order-1">
             <img
               src="/images/strength.jpg"
               alt="strength"
               className="shadow-lg rounded-md"
             />
           </div>
-          <div className="col-span-1">
-            <h2 className="text-2xl md:text-4xl font-bold mb-5 uppercase">
+          <div className="col-span-1 order-1 md:order-2">
+            <h2 className="text-2xl md:text-4xl font-bold mb-2 md:mb-5 uppercase">
               Our Strength
             </h2>
             <p>

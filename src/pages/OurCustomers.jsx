@@ -61,7 +61,7 @@ const OurCustomers = () => {
             {customers.map((customer) => (
               <div
                 key={customer.id}
-                className="w-full rounded-[10px] overflow-hidden "
+                className="w-full rounded-[10px] overflow-hidden"
               >
                 <img
                   src={customer.logo}

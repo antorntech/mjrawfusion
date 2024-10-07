@@ -6,6 +6,7 @@ import WhyChoose from "../components/about/WhyChoose";
 import WhatWeDo from "../components/about/WhatWeDo";
 import OurStrength from "../components/about/OurStrength";
 import OurTeam from "../components/about/OurTeam";
+import GoverningBoard from "../components/about/GoverningBoard";
 
 const AboutUs = () => {
   return (
@@ -51,6 +52,9 @@ const AboutUs = () => {
       </div>
       <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
         <OurTeam />
+      </div>
+      <div className="py-[20px] md:py-[80px] lg:py-[100px]">
+        <GoverningBoard />
       </div>
     </>
   );

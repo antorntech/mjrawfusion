@@ -84,7 +84,12 @@ const Principals = () => {
     },
   ];
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      className="max-w-screen-xl mx-auto"
+    >
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full h-full">
         {logos.map((logo, index) => (
           <div
