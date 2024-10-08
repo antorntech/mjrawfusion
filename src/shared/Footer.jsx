@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="w-full flex flex-col items-center md:items-start">
               <img src="/images/logo-light.png" alt="" width={200} />
-              <p className="text-white my-5">
+              <p className="text-gray-300 my-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 asperiores, adipisci voluptas perferendis voluptatum illum vero,
                 placeat voluptate delectus a qui numquam.

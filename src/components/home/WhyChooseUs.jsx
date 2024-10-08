@@ -15,37 +15,37 @@ const WhyChooseUs = () => {
               Why Choose Us
             </h2>
             <ul className="text-gray-800 leading-relaxed">
-              <li className="text-xl mb-2">
+              <li className="text-md md:text-xl mb-2">
                 <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
                 61 years of experience
               </li>
-              <li className="text-xl mb-2">
+              <li className="text-md md:text-xl mb-2">
                 <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
                 One of the first manufacturer’s representatives in Bangladesh
                 with trust & reliability
               </li>
-              <li className="text-xl mb-2">
+              <li className="text-md md:text-xl mb-2">
                 <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
                 In depth Industry knowledge
               </li>
-              <li className="text-xl mb-2">
+              <li className="text-md md:text-xl mb-2">
                 <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
                 Representing world renowned companies from Europe, India, USA,
                 Japan, China, and many more
               </li>
-              <li className="text-xl mb-2">
+              <li className="text-md md:text-xl mb-2">
                 <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
                 Offer finest quality of products
               </li>
-              <li className="text-xl mb-2">
+              <li className="text-md md:text-xl mb-2">
                 <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
                 1st preference of local pharmaceutical manufacturers
               </li>
-              <li className="text-xl mb-2">
+              <li className="text-md md:text-xl mb-2">
                 <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
                 Trusted partner of principals
               </li>
-              <li className="text-xl mb-2">
+              <li className="text-md md:text-xl mb-2">
                 <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
                 Comply with laws and regulations and social norms
               </li>
