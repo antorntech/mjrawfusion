@@ -109,21 +109,31 @@ const Header = () => {
             <div className="relative group">
               <Link
                 to="/contactus"
-                className="inline-block px-8 py-3 bg-gradient-to-l from-[#04cafb] to-[#039dda] text-white rounded-md group-hover:rounded-none shadow-lg"
+                className="inline-block px-8 py-3 bg-gradient-to-l from-[#04cafb] to-[#039dda] text-white rounded-md  shadow-lg transition-all duration-300 ease-in-out"
               >
                 <span className="me-2">More</span>
-                <i class="fa-solid fa-chevron-down"></i>
+                <i className="fa-solid fa-chevron-down"></i>
               </Link>
-              <div className="hidden absolute top-12 opacity-0 group-hover:top-12 group-hover:opacity-100 transition-all duration-500 w-full lg:flex flex-col justify-center gap-3 bg-white text-black p-3">
-                <Link to="/career" className="hover:text-[#04cafb]">
+
+              <div className="absolute left-0 top-16 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500 w-full lg:flex flex-col justify-center gap-3 bg-white text-black p-3 shadow-lg rounded-md z-10">
+                <Link
+                  to="/career"
+                  className="hover:text-[#04cafb] transition-colors duration-300"
+                >
                   Career
                 </Link>
                 <hr className="text-gray-300" />
-                <Link to="/news-letter" className="hover:text-[#04cafb]">
+                <Link
+                  to="/news-letter"
+                  className="hover:text-[#04cafb] transition-colors duration-300"
+                >
                   News Letter
                 </Link>
                 <hr className="text-gray-300" />
-                <Link to="/contactus" className="hover:text-[#04cafb]">
+                <Link
+                  to="/contactus"
+                  className="hover:text-[#04cafb] transition-colors duration-300"
+                >
                   Contact Us
                 </Link>
               </div>
