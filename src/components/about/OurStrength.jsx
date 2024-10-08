@@ -9,7 +9,7 @@ const OurStrength = () => {
       data-aos-duration="1000"
     >
       <div className="max-w-screen-xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5 md:gap-12">
           <div className="col-span-1 order-2 md:order-1">
             <img
               src="/images/strength.jpg"
