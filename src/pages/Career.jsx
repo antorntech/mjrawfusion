@@ -6,8 +6,7 @@ const Career = () => {
   return (
     <>
       <PageHeader title="Career" />
-
-      <div className="py-[20px] md:py-[80px] lg:py-[100px]">
+      <div className="px-5 md:px-0 py-[20px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">
           <p className="text-md lg:text-lg">
             We are always looking for talented and creative individuals to join
