@@ -10,6 +10,7 @@ import OurCustomers from "../pages/OurCustomers";
 import NewsLetter from "../pages/NewsLetter";
 import Career from "../pages/Career";
 import Products from "../pages/Products";
+import ProductDetails from "../pages/ProductDetails";
 
 const AppRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products/:slug" element={<ProductDetails />} />
         <Route path="/principals" element={<OurPrinciples />} />
         <Route path="/customers" element={<OurCustomers />} />
         <Route path="/contactus" element={<ContactUs />} />

@@ -17,7 +17,7 @@ const Products = () => {
     },
     {
       id: 3,
-      name: "Flavors, Fragrances & Essential Oils",
+      name: "Fragrances & Essential Oils",
       image: "images/clients/sponsor-3.png",
     },
     {
@@ -29,12 +29,19 @@ const Products = () => {
   return (
     <>
       <PageHeader title="Products" />
-      <div className="py-[20px] md:py-[80px] lg:py-[100px]">
+      <div className="px-5 md:px-0 py-[50px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-8">
             {products.map((product, index) => (
               <Link
-                to={`/products/${product.id}`}
+                to={{
+                  pathname: `/products/${product.name
+                    .replace(/\s+/g, "-")
+                    .toLowerCase()}`,
+                }}
+                state={{
+                  id: product.id,
+                }}
                 key={index}
                 className="relative group flex items-center justify-center text-center border border-gray-300 transition-all duration-500 ease-in-out py-12 px-5 overflow-hidden rounded-md"
               >
