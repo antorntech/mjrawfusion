@@ -96,16 +96,24 @@ const OurProducts = () => {
           </p>
         </div>
         <Slider {...settings}>
-          {products.map((product) => (
-            <div key={product.id}>
-              <div className="flex items-center justify-center text-center border-2 border-gray-300 rounded-md p-3 w-full md:w-5/6 h-[150px] mx-auto">
-                <Link to="/products">
-                  <h3 className="text-lg md:text-[30px] leading-10">
-                    {product.name}
-                  </h3>
-                </Link>
-              </div>
-            </div>
+          {products.map((product, index) => (
+            <Link
+              to={{
+                pathname: `/products/${product.name
+                  .replace(/\s+/g, "-")
+                  .toLowerCase()}`,
+              }}
+              state={{
+                id: product.id,
+              }}
+              key={index}
+              className="relative group flex items-center justify-center text-center border border-gray-300 transition-all duration-500 ease-in-out py-12 px-5 overflow-hidden rounded-md"
+            >
+              <div className="absolute inset-0 bg-gradient-to-l from-[#04cafb] to-[#039dda] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <p className="relative text-lg group-hover:text-white transition-all duration-500 z-10">
+                {product.name}
+              </p>
+            </Link>
           ))}
         </Slider>
       </div>
