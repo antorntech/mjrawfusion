@@ -72,7 +72,7 @@ const ProductDetails = () => {
           <ul>
             {product.related_products.map((p, i) => (
               <li key={i} className="text-lg">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
+                <i class="fa-solid fa-square-check me-2 text-[#04CAFB] text-xl"></i>
                 {product.name} {p}
               </li>
             ))}
