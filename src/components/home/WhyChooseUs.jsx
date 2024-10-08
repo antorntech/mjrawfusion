@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
       data-aos-duration="1000"
     >
       <div className="max-w-screen-xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-3 md:gap-12">
           <div className="col-span-1">
             <h2 className="text-2xl md:text-4xl font-bold mb-5 uppercase">
               Why Choose Us
