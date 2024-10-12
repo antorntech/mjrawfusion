@@ -14,7 +14,7 @@ const OurTeam = () => {
             <h2 className="text-xl md:text-3xl font-bold mb-2 md:mb-3 uppercase text-[#162C40]">
               Our Team
             </h2>
-            <p className="text-[#162C40]">
+            <p className="text-[#162C40] leading-relaxed">
               MJ Raw Fusion team is highly regarded in the industry for its
               global pharmaceutical expertise. Our team is the backbone of our
               success. We pride ourselves on having a diverse group of highly

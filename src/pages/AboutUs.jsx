@@ -68,7 +68,7 @@ const AboutUs = () => {
       <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
         <GoverningBoard />
       </div>
-      <div className="py-[50px] md:py-[20px] lg:py-[50px]">
+      <div className="py-[20px] md:py-[80px] lg:py-[100px]">
         <CompanyInformation />
       </div>
     </>

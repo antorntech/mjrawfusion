@@ -11,7 +11,7 @@ const CompanyInformation = () => {
       <h2 className="text-xl md:text-3xl font-bold mb-2 md:mb-3 uppercase text-[#162C40]">
         Company Information
       </h2>
-      <section style={{ marginBottom: "20px" }}>
+      <section className="mb-5">
         <h2 className="text-xl font-semibold mb-2">MJ Raw Fusion</h2>
         <p>
           <strong>Registered Address:</strong> 158/1, Rayerbazar (East),
@@ -43,7 +43,7 @@ const CompanyInformation = () => {
       </section>
 
       <section>
-        <h3>Bank Details:</h3>
+        <h3 className="text-xl font-semibold mb-2">Bank Details:</h3>
         <p>
           <strong>Bank A/C Name:</strong> MJ RAW FUSION
         </p>
@@ -65,9 +65,11 @@ const CompanyInformation = () => {
         </p>
       </section>
 
-      <section style={{ marginTop: "20px" }}>
-        <h3>COMMISSION (FOREIGN REMITTANCE) COLLECTION:</h3>
-        <p>MUST BE DONE ONLY BY USING THE BANK ACCOUNT OF MJ RAW FUSION.</p>
+      <section className="mt-5">
+        <h3 className="text-lg">
+          <strong>COMMISSION (FOREIGN REMITTANCE) COLLECTION:</strong> MUST BE
+          DONE ONLY BY USING THE BANK ACCOUNT OF MJ RAW FUSION.
+        </h3>
       </section>
 
       <section style={{ marginTop: "10px" }}>
