@@ -30,12 +30,6 @@ const Home = () => {
               <div className="w-[50px] h-[5px] bg-[#04cafb]"></div>
               <div className="w-[60px] h-[1px] bg-gray-300"></div>
             </div>
-            <p className="text-gray-500 text-center mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              debitis eligendi, aliquam ea maxime facere velit officiis, tenetur
-              eveniet itaque suscipit accusamus numquam quibusdam doloremque
-              atque blanditiis molestiae? Alias, et?
-            </p>
           </div>
         </div>
         <Principals />

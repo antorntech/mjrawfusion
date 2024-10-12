@@ -8,28 +8,48 @@ const OurProducts = () => {
   const products = [
     {
       id: 1,
-      name: "APIs & Blended Pellets",
+      name: "API Micronisation/Lyophilization",
       image: "images/clients/sponsor-1.png",
     },
     {
       id: 2,
-      name: "Pharmaceutical Coatings",
+      name: "CDMO (Regular API and HPAPI)",
       image: "images/clients/sponsor-2.png",
     },
     {
       id: 3,
-      name: "Flavors, Fragrances & Essential Oils",
+      name: "Technology Development and Transfer Services",
       image: "images/clients/sponsor-3.png",
     },
     {
       id: 4,
-      name: "Herbal Extracts & Vitamins",
+      name: "Customized APIs, Pellets, Taste Masked Granules",
       image: "images/clients/sponsor-4.png",
     },
     {
       id: 5,
-      name: "More Products",
+      name: "Drug Synthesis",
       image: "images/clients/sponsor-5.png",
+    },
+    {
+      id: 6,
+      name: "Bioequivalence Studies",
+      image: "images/clients/sponsor-6.png",
+    },
+    {
+      id: 7,
+      name: "Fixed Dose Combination",
+      image: "images/clients/sponsor-7.png",
+    },
+    {
+      id: 8,
+      name: "Pharmacovigilence",
+      image: "images/clients/sponsor-8.png",
+    },
+    {
+      id: 9,
+      name: "DMF Preparation, Filling and Dossier Service",
+      image: "images/clients/sponsor-9.png",
     },
   ];
 
@@ -81,19 +101,13 @@ const OurProducts = () => {
           className="mb-3 md:mb-8"
         >
           <h2 className="text-2xl md:text-4xl font-bold text-center mb-2 uppercase">
-            Our Products
+            Our Working Area
           </h2>
           <div className="flex items-center justify-center">
             <div className="w-[60px] h-[1px] bg-gray-300"></div>
             <div className="w-[50px] h-[5px] bg-[#04cafb]"></div>
             <div className="w-[60px] h-[1px] bg-gray-300"></div>
           </div>
-          <p className="text-gray-500 text-center mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            debitis eligendi, aliquam ea maxime facere velit officiis, tenetur
-            eveniet itaque suscipit accusamus numquam quibusdam doloremque atque
-            blanditiis molestiae? Alias, et?
-          </p>
         </div>
         <Slider {...settings}>
           {products.map((product, index) => (
@@ -107,9 +121,14 @@ const OurProducts = () => {
                 id: product.id,
               }}
               key={index}
-              className="relative group flex items-center justify-center text-center border border-gray-300 transition-all duration-500 ease-in-out py-12 px-5 overflow-hidden rounded-md"
+              className="relative group flex items-center justify-center text-center transition-all duration-500 ease-in-out py-12 px-5 overflow-hidden rounded-md"
             >
               <div className="absolute inset-0 bg-gradient-to-l from-[#04cafb] to-[#039dda] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <img
+                src={product.image}
+                alt=""
+                className="relative mx-auto z-10 mb-2"
+              />
               <p className="relative text-lg group-hover:text-white transition-all duration-500 z-10">
                 {product.name}
               </p>

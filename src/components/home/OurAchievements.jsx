@@ -21,14 +21,10 @@ const OurAchievements = () => {
                 Our Achievements
               </h2>
               <p className="mb-6 leading-relaxed">
-                MJRAWFUSION has been associated with world-renowned APIs &
-                Excipients manufacturers since its establishment. Our profound
-                humanitarian concerns ensure the highest quality products from
-                our principals in the healthcare sector. We share a significant
-                alliance with our principals which helps them to learn about the
-                healthcare sector in Bangladesh. Our goodwill, knowledge, and
-                experience have extended our portfolio remarkably within the
-                industry both local and global markets.
+                Our profound humanitarian concerns ensure the highest quality
+                products from our principals in the healthcare sector. Our
+                goodwill, knowledge and experience have extended our portfolio
+                remarkably within the industry both local and global markets.
               </p>
             </div>
 

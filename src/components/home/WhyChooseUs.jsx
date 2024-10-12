@@ -1,6 +1,42 @@
 import React from "react";
 
 const WhyChooseUs = () => {
+  const whyChooseUs = [
+    {
+      id: 1,
+      title:
+        "A team of dedicated Professionals (Graduate Pharmacist, Chemist, Engineers, MBA)",
+    },
+    {
+      id: 2,
+      title: "In depth Industry Knowledge",
+    },
+    {
+      id: 3,
+      title: "Working Experience in Multinational and Local pharmaceuticals",
+    },
+    {
+      id: 4,
+      title:
+        "One of the Top tier Manufacturer’s Representatives in Bangladesh with Trust and Reliability",
+    },
+    {
+      id: 5,
+      title: "Offer Finest Quality of Product",
+    },
+    {
+      id: 6,
+      title: "Comply with Laws, Regulations and Social Norms",
+    },
+    {
+      id: 7,
+      title: "Outstanding Service",
+    },
+    {
+      id: 8,
+      title: "Corporate Social Responsibilities",
+    },
+  ];
   return (
     <div
       className="px-5 pb-[20px] md:pb-[80px] lg:pb-[100px]"
@@ -15,40 +51,15 @@ const WhyChooseUs = () => {
               Why Choose Us
             </h2>
             <ul className="text-gray-800 leading-relaxed">
-              <li className="text-md md:text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                61 years of experience
-              </li>
-              <li className="text-md md:text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                One of the first manufacturer’s representatives in Bangladesh
-                with trust & reliability
-              </li>
-              <li className="text-md md:text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                In depth Industry knowledge
-              </li>
-              <li className="text-md md:text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                Representing world renowned companies from Europe, India, USA,
-                Japan, China, and many more
-              </li>
-              <li className="text-md md:text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                Offer finest quality of products
-              </li>
-              <li className="text-md md:text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                1st preference of local pharmaceutical manufacturers
-              </li>
-              <li className="text-md md:text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                Trusted partner of principals
-              </li>
-              <li className="text-md md:text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                Comply with laws and regulations and social norms
-              </li>
+              {whyChooseUs?.map((item) => (
+                <li
+                  className="text-xl flex items-start gap-2 mb-2"
+                  key={item.id}
+                >
+                  <i class="fa-solid fa-square-check text-[#04CAFB] mt-1"></i>
+                  <span> {item.title}</span>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="col-span-1">

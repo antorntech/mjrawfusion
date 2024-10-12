@@ -15,12 +15,14 @@ const WelcomeText = () => {
           className="mx-auto"
         />
         <p className="text-md md:text-lg text-center mt-5">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores eius
-          ipsam perspiciatis voluptatibus veritatis cum ducimus est tenetur?
-          Possimus et minus cumque unde earum blanditiis at labore molestias,
-          incidunt aliquam aut expedita sed recusandae odio autem est voluptas
-          pariatur natus odit? Ratione sapiente neque nihil illum qui, ducimus
-          quod amet.
+          MJ Raw Fusion is one of the fast growing organizations in Bangladesh
+          to represent world renowned manufacturers of pharmaceutical
+          ingredients since its establishment. With a commitment to excellence,
+          we bridge the gap between manufacturers and pharmaceutical industry,
+          ensuring access to high quality materials that meet stringent
+          regulatory standards. Our core objective is to satisfy our customers
+          by collaborating closely with our principals who share common visions
+          and strengths to achieve mutual goals.
         </p>
       </div>
     </div>
