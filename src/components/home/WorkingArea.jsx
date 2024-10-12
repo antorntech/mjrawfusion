@@ -8,7 +8,7 @@ const WorkingArea = () => {
   const products = [
     {
       id: 1,
-      name: "API Micronisation/Lyophilization",
+      name: "API Micronization/Lyophilization",
       image: "images/clients/sponsor-1.png",
     },
     {
