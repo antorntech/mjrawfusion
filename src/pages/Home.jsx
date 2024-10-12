@@ -22,7 +22,7 @@ const Home = () => {
             data-aos-duration="1000"
             className="mb-3 md:mb-8"
           >
-            <h2 className="text-2xl md:text-4xl font-bold text-center mb-2 uppercase">
+            <h2 className="text-xl md:text-3xl font-bold text-center mb-2 uppercase text-[#162C40]">
               Our Principals
             </h2>
             <div className="flex items-center justify-center">

@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-3 md:gap-12">
           <div className="col-span-1">
-            <h2 className="text-2xl md:text-4xl font-bold mb-5 uppercase">
+            <h2 className="text-xl md:text-3xl font-bold mb-5 uppercase text-[#162C40]">
               Why Choose Us
             </h2>
             <ul className="text-gray-800 leading-relaxed">
@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
                   key={item.id}
                 >
                   <i class="fa-solid fa-square-check text-[#04CAFB] mt-1"></i>
-                  <span> {item.title}</span>
+                  <span className="text-[#162C40]"> {item.title}</span>
                 </li>
               ))}
             </ul>

@@ -35,13 +35,25 @@ const GoverningBoard = () => {
                   Cumque, excepturi.
                 </p>
                 <div className="flex items-center gap-3 mt-5">
-                  <Link className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500">
+                  <Link
+                    to="#"
+                    target="_blank"
+                    className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500"
+                  >
                     <i class="fa-brands fa-facebook-f text-[#04cafb] group-hover:text-white  text-lg"></i>
                   </Link>
-                  <Link className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500">
+                  <Link
+                    to="#"
+                    target="_blank"
+                    className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500"
+                  >
                     <i class="fa-brands fa-linkedin-in text-[#04cafb] group-hover:text-white text-lg"></i>
                   </Link>
-                  <Link className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500">
+                  <Link
+                    to="#"
+                    target="_blank"
+                    className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500"
+                  >
                     <i class="fa-brands fa-x-twitter text-[#04cafb] group-hover:text-white text-lg"></i>
                   </Link>
                 </div>
@@ -58,20 +70,32 @@ const GoverningBoard = () => {
                 />
               </div>
               <div className="col-span-2 flex flex-col justify-center mt-2 md:mt-0 mb-5 md:mb-0">
-                <h1 className="text-2xl font-semibold">Jobair Abedin </h1>
+                <h1 className="text-2xl font-semibold">S M Jobair Abedin</h1>
                 <p className="text-gray-500">Director</p>
                 <p className="mt-3 text-gray-700">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Perspiciatis, culpa.
                 </p>
                 <div className="flex items-center gap-3 mt-5">
-                  <Link className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500">
+                  <Link
+                    to="https://www.facebook.com/s.m.jobair.abedin"
+                    target="_blank"
+                    className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500"
+                  >
                     <i class="fa-brands fa-facebook-f text-[#04cafb] group-hover:text-white  text-lg"></i>
                   </Link>
-                  <Link className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500">
+                  <Link
+                    to="https://www.linkedin.com/in/s-m-jobair-abedin-a833bb256/?trk=opento_sprofile_topcard"
+                    target="_blank"
+                    className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500"
+                  >
                     <i class="fa-brands fa-linkedin-in text-[#04cafb] group-hover:text-white text-lg"></i>
                   </Link>
-                  <Link className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500">
+                  <Link
+                    to="https://x.com/jobairabedin"
+                    target="_blank"
+                    className="group border-2 border-[#04cafb] rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500"
+                  >
                     <i class="fa-brands fa-x-twitter text-[#04cafb] group-hover:text-white text-lg"></i>
                   </Link>
                 </div>

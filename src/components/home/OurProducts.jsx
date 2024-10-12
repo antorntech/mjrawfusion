@@ -100,7 +100,7 @@ const OurProducts = () => {
           data-aos-duration="1000"
           className="mb-3 md:mb-8"
         >
-          <h2 className="text-2xl md:text-4xl font-bold text-center mb-2 uppercase">
+          <h2 className="text-xl md:text-3xl font-bold text-center mb-2 uppercase text-[#162C40]">
             Our Working Area
           </h2>
           <div className="flex items-center justify-center">
@@ -129,7 +129,7 @@ const OurProducts = () => {
                 alt=""
                 className="relative mx-auto z-10 mb-2"
               />
-              <p className="relative text-lg group-hover:text-white transition-all duration-500 z-10">
+              <p className="relative text-lg text-[#162C40] group-hover:text-white transition-all duration-500 z-10">
                 {product.name}
               </p>
             </Link>
