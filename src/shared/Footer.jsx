@@ -25,9 +25,10 @@ const Footer = () => {
             <div className="w-full flex flex-col items-center md:items-start">
               <img src="/images/logo-light.png" alt="" width={200} />
               <p className="text-gray-300 my-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                asperiores, adipisci voluptas perferendis voluptatum illum vero,
-                placeat voluptate delectus a qui numquam.
+                A Dynamically Growing Indenting House of Global Pharmaceutical
+                Ingredients and Authorized Distributors of World Renowned
+                Principals Serving to Healthcare Sector in Bangladesh Since its
+                Establishment.
               </p>
               <div className="flex items-center gap-3">
                 <Link className="border-2 border-white rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500">
