@@ -1,94 +1,42 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
 const OurProducts = () => {
   const products = [
     {
       id: 1,
-      name: "API Micronisation/Lyophilization",
-      image: "images/clients/sponsor-1.png",
+      name: "Raw Materials",
+      image: "images/products1.jpeg",
     },
     {
       id: 2,
-      name: "CDMO (Regular API and HPAPI)",
-      image: "images/clients/sponsor-2.png",
+      name: "Packaging Materials ",
+      image: "images/products2.jpg",
     },
     {
       id: 3,
-      name: "Technology Development and Transfer Services",
-      image: "images/clients/sponsor-3.png",
+      name: "Reference Standards/Impurities",
+      image: "images/products3.jpg",
     },
     {
       id: 4,
-      name: "Customized APIs, Pellets, Taste Masked Granules",
-      image: "images/clients/sponsor-4.png",
+      name: "Drug Intermediate",
+      image: "images/products4.jpg",
     },
     {
       id: 5,
-      name: "Drug Synthesis",
-      image: "images/clients/sponsor-5.png",
+      name: "Analytical Chemical",
+      image: "images/products5.png",
     },
     {
       id: 6,
-      name: "Bioequivalence Studies",
-      image: "images/clients/sponsor-6.png",
-    },
-    {
-      id: 7,
-      name: "Fixed Dose Combination",
-      image: "images/clients/sponsor-7.png",
-    },
-    {
-      id: 8,
-      name: "Pharmacovigilence",
-      image: "images/clients/sponsor-8.png",
-    },
-    {
-      id: 9,
-      name: "DMF Preparation, Filling and Dossier Service",
-      image: "images/clients/sponsor-9.png",
+      name: "QC Instruments/Equipments",
+      image: "images/products6.jpg",
     },
   ];
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 5000,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-
   return (
-    <div className="px-5 py-[20px] md:py-[80px] lg:py-[100px]">
+    <div className="px-5 pb-[20px] md:pb-[80px] lg:pb-[100px]">
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
@@ -100,8 +48,8 @@ const OurProducts = () => {
           data-aos-duration="1000"
           className="mb-3 md:mb-8"
         >
-          <h2 className="text-xl md:text-3xl font-bold text-center mb-2 uppercase text-[#162C40]">
-            Our Working Area
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-2 uppercase text-[#162C40]">
+            Our Products
           </h2>
           <div className="flex items-center justify-center">
             <div className="w-[60px] h-[1px] bg-gray-300"></div>
@@ -109,7 +57,7 @@ const OurProducts = () => {
             <div className="w-[60px] h-[1px] bg-gray-300"></div>
           </div>
         </div>
-        <Slider {...settings}>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <Link
               to={{
@@ -121,20 +69,22 @@ const OurProducts = () => {
                 id: product.id,
               }}
               key={index}
-              className="relative group flex items-center justify-center text-center transition-all duration-500 ease-in-out py-12 px-5 overflow-hidden rounded-md"
             >
-              <div className="absolute inset-0 bg-gradient-to-l from-[#04cafb] to-[#039dda] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <img
-                src={product.image}
-                alt=""
-                className="relative mx-auto z-10 mb-2"
-              />
-              <p className="relative text-lg text-[#162C40] group-hover:text-white transition-all duration-500 z-10">
-                {product.name}
-              </p>
+              <div className="overflow-hidden rounded-md w-full h-[300px] shadow-md">
+                <img
+                  src={product.image}
+                  alt=""
+                  className="w-full h-full object-cover rounded-md"
+                />
+              </div>
+              <div>
+                <h2 className="text-md md:text-lg uppercase text-[#0498fb] hover:text-[#162C40] transition-all duration-500 mt-3">
+                  {product.name}
+                </h2>
+              </div>
             </Link>
           ))}
-        </Slider>
+        </div>
       </div>
     </div>
   );

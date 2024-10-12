@@ -5,7 +5,7 @@ const PageHeader = ({ title }) => {
   const location = useLocation();
   return (
     <div
-      className="w-full mt-12 md:mt-0 h-[25vh] md:h-[50vh] flex justify-center items-center"
+      className="w-full mt-12 md:mt-0 h-[25vh] md:h-[60vh] flex justify-center items-center"
       style={{
         backgroundImage: `url('/images/pageheader-bg.jpg')`,
         backgroundSize: "cover",

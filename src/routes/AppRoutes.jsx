@@ -11,6 +11,8 @@ import NewsLetter from "../pages/NewsLetter";
 import Career from "../pages/Career";
 import Products from "../pages/Products";
 import ProductDetails from "../pages/ProductDetails";
+import MariaAbout from "../components/about/MariaAbout";
+import JobairAbout from "../components/about/JobairAbout";
 
 const AppRoutes = () => {
   return (
@@ -18,6 +20,8 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/about-maria" element={<MariaAbout />} />
+        <Route path="/about-jobair" element={<JobairAbout />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:slug" element={<ProductDetails />} />
         <Route path="/principals" element={<OurPrinciples />} />

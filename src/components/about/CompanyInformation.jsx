@@ -44,24 +44,14 @@ const CompanyInformation = () => {
 
       <section>
         <h3 className="text-xl font-semibold mb-2">Bank Details:</h3>
+        <p>Bank A/C Name: MJ RAW FUSION</p>
+        <p>A/C Number: 15039……..9001</p>
+        <p>Bank Name: The City Bank PLC</p>
+        <p>Branch Name: Kawran Bazar</p>
+        <p>SWIFT CODE: [Enter SWIFT Code]</p>
         <p>
-          <strong>Bank A/C Name:</strong> MJ RAW FUSION
-        </p>
-        <p>
-          <strong>A/C Number:</strong> 15039……..9001
-        </p>
-        <p>
-          <strong>Bank Name:</strong> The City Bank PLC
-        </p>
-        <p>
-          <strong>Branch Name:</strong> Kawran Bazar
-        </p>
-        <p>
-          <strong>SWIFT CODE:</strong> [Enter SWIFT Code]
-        </p>
-        <p>
-          <strong>Bank Address:</strong> UTC Building, 8 Panthapath, Kawran
-          Bazar, Tejgaon, Dhaka-1215, Bangladesh.
+          Bank Address: UTC Building, 8 Panthapath, Kawran Bazar, Tejgaon,
+          Dhaka-1215, Bangladesh.
         </p>
       </section>
 
@@ -73,7 +63,7 @@ const CompanyInformation = () => {
       </section>
 
       <section style={{ marginTop: "10px" }}>
-        <p>
+        <p className="text-md md:text-lg font-semibold italic">
           All business communications of MJ RAW FUSION with the customers and
           principals will be done by using the official contact information.
         </p>
