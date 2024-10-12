@@ -11,22 +11,16 @@ const OurTeam = () => {
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5 md:gap-12">
           <div className="col-span-1">
-            <h2 className="text-2xl md:text-4xl font-bold mb-2 md:mb-5 uppercase">
+            <h2 className="text-xl md:text-3xl font-bold mb-2 md:mb-3 uppercase text-[#162C40]">
               Our Team
             </h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
-              numquam quas reprehenderit facere, fuga consectetur iusto error
-              odio nemo voluptatibus totam officiis, accusamus corporis nobis
-              soluta obcaecati necessitatibus quos nam laborum impedit
-              laboriosam. Id, autem magnam! Fugit commodi dolorem harum qui
-              optio neque rerum ipsum omnis porro voluptates ad aut maiores,
-              enim dignissimos ipsa quae explicabo dicta, tempora cum veniam,
-              recusandae cupiditate! Assumenda, dolor modi. Impedit deleniti,
-              explicabo dolorem illo hic totam corporis soluta voluptatem qui
-              maxime distinctio ipsa cupiditate aliquam libero eius saepe veniam
-              nemo aperiam rerum consectetur ex! Perferendis corporis iusto
-              corrupti. Quod repellendus eos error corporis ipsam.
+            <p className="text-[#162C40]">
+              MJ Raw Fusion team is highly regarded in the industry for its
+              global pharmaceutical expertise. Our team is the backbone of our
+              success. We pride ourselves on having a diverse group of highly
+              skilled professionals dedicated to delivering exceptional service
+              and quality products to our client. Here’s a look at the key
+              components of our team, their responsibilities and skills:
             </p>
           </div>
           <div className="col-span-1">

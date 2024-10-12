@@ -11,10 +11,10 @@ const WhatWeDo = () => {
       <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5 md:gap-12">
           <div className="col-span-1">
-            <h2 className="text-2xl md:text-4xl font-bold mb-2 md:mb-5 uppercase">
+            <h2 className="text-xl md:text-3xl font-bold mb-2 md:mb-5 uppercase text-[#162C40]">
               What We Do
             </h2>
-            <p>
+            <p className="text-[#162C40]">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
               numquam quas reprehenderit facere, fuga consectetur iusto error
               odio nemo voluptatibus totam officiis, accusamus corporis nobis

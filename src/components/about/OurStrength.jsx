@@ -1,6 +1,14 @@
 import React from "react";
 
 const OurStrength = () => {
+  const strengths = [
+    "WORKING WITH GOOD MANUFACTURERS WORLDWIDE.",
+    "BEST QUALITY PRODUCTS ACROSS THE PHARMACEUTICAL DOMAIN",
+    "FLEXIBLE CONTRACT ENGAGEMENTS",
+    "PRIMARY FOCUS ON QUALITY",
+    "SHIPMENT / DELIVERY IN TIME",
+    "FOCUSED AND PERSONALIZED CUSTOMER RELATIONSHIP",
+  ];
   return (
     <div
       className="px-5 md:px-0"
@@ -18,38 +26,24 @@ const OurStrength = () => {
             />
           </div>
           <div className="col-span-1 order-1 md:order-2">
-            <h2 className="text-2xl md:text-4xl font-bold mb-2 md:mb-5 uppercase">
+            <h2 className="text-xl md:text-3xl font-bold mb-2 md:mb-3 uppercase text-[#162C40]">
               Our Strength
             </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-              modi assumenda ea voluptates nihil est!
+            <p className="text-[#162C40] leading-relaxed">
+              We are one of the top Indenting Agents and Traders of
+              Pharmaceutical Ingredients in Dhaka, Bangladesh catering to many A
+              listed companies.
             </p>
             <ul className="text-gray-800 leading-relaxed mt-5">
-              <li className="text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                Working with good manufacturers Worldwide.
-              </li>
-              <li className="text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                Best Quality Products across the pharmaceutical domain
-              </li>
-              <li className="text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                Flexible Contract Engagements
-              </li>
-              <li className="text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                Primary Focus on Quality
-              </li>
-              <li className="text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                Shipment / Delivery in time
-              </li>
-              <li className="text-xl mb-2">
-                <i class="fa-solid fa-square-check me-2 text-[#04CAFB]"></i>
-                Focused and Personalized Customer relationship
-              </li>
+              {strengths.map((strength, index) => (
+                <li
+                  key={index}
+                  className="text-md flex items-start gap-2 mb-2 leading-relaxed"
+                >
+                  <i class="fa-solid fa-square-check mt-1 text-[#04CAFB]"></i>
+                  {strength}
+                </li>
+              ))}
             </ul>
           </div>
         </div>

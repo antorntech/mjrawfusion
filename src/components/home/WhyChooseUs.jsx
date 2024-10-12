@@ -50,10 +50,10 @@ const WhyChooseUs = () => {
             <h2 className="text-xl md:text-3xl font-bold mb-5 uppercase text-[#162C40]">
               Why Choose Us
             </h2>
-            <ul className="text-gray-800 leading-relaxed">
+            <ul className="text-gray-800">
               {whyChooseUs?.map((item) => (
                 <li
-                  className="text-xl flex items-start gap-2 mb-2"
+                  className="text-md flex items-start gap-2 mb-2 leading-relaxed"
                   key={item.id}
                 >
                   <i class="fa-solid fa-square-check text-[#04CAFB] mt-1"></i>

@@ -25,21 +25,21 @@ const MissionVision = () => {
                 </div>
               </div>
               <div className="p-5 mt-5">
-                <h2 className="mt-5 md:mt-[20px] text-2xl md:text-4xl font-semibold text-center mb-2 uppercase">
+                <h2 className="mt-5 md:mt-[20px] text-xl md:text-2xl xl:text-3xl font-semibold text-center mb-2 uppercase text-[#162C40]">
                   Our Mission
                 </h2>
-                <p className="text-gray-500 text-center">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptas quaerat iusto numquam, nobis aspernatur dolore
-                  recusandae laborum ducimus maxime amet expedita totam nesciunt
-                  voluptates quas odit aperiam nisi facilis autem?
+                <p className="text-gray-600 text-center leading-relaxed">
+                  Our mission is to facilitate seamless access to high-quality
+                  pharmaceutical ingredients, ensuring compliance with industry
+                  standards and regulations. All this at-{" "}
+                  <strong>“COMPETITIVE PRICE WITHOUT QUALITY SACRIFICE”</strong>
                 </p>
               </div>
             </div>
           </div>
           <div
             data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos-delay="200"
             data-aos-duration="1000"
             className="group shadow-lg"
           >
@@ -57,21 +57,22 @@ const MissionVision = () => {
                 </div>
               </div>
               <div className="p-5 mt-5">
-                <h2 className="mt-5 md:mt-[20px] text-2xl md:text-4xl font-semibold text-center mb-2 uppercase">
+                <h2 className="mt-5 md:mt-[20px] text-xl md:text-2xl xl:text-3xl font-semibold text-center mb-2 uppercase text-[#162C40]">
                   Our Vision
                 </h2>
-                <p className="text-gray-500 text-center">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptas quaerat iusto numquam, nobis aspernatur dolore
-                  recusandae laborum ducimus maxime amet expedita totam nesciunt
-                  voluptates quas odit aperiam nisi facilis autem?
+                <p className="text-gray-600 text-center leading-relaxed">
+                  Our commitment is to support the development of safe,
+                  effective and affordable medicines, while building enduring
+                  relationships with our clients and suppliers through integrity
+                  excellence. We{" "}
+                  <strong>“WORK TOGETHER FOR MUTUAL GROWTH & GOODWILL”</strong>
                 </p>
               </div>
             </div>
           </div>
           <div
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-delay="300"
             data-aos-duration="1000"
             className="group shadow-lg"
           >
@@ -89,14 +90,15 @@ const MissionVision = () => {
                 </div>
               </div>
               <div className="p-5 mt-5">
-                <h2 className="mt-5 md:mt-[20px] text-2xl md:text-4xl font-semibold text-center mb-2 uppercase">
+                <h2 className="mt-5 md:mt-[20px] text-xl md:text-2xl xl:text-3xl font-semibold text-center mb-2 uppercase text-[#162C40]">
                   Our Values
                 </h2>
-                <p className="text-gray-500 text-center">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptas quaerat iusto numquam, nobis aspernatur dolore
-                  recusandae laborum ducimus maxime amet expedita totam nesciunt
-                  voluptates quas odit aperiam nisi facilis autem?
+                <p className="text-gray-600 text-center leading-relaxed">
+                  <strong>“QUALITY IS OUR TOP PRIORITY”</strong> Yes, we conduct
+                  rigorous quality assessments and ensure compliance with
+                  international standards, giving our clients peace of mind with
+                  every transaction. We uphold the highest ethical standards in
+                  all our dealings.
                 </p>
               </div>
             </div>
