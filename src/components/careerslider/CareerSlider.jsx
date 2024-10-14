@@ -24,7 +24,7 @@ const CareerSlider = () => {
     <div>
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div key={index} className="w-full h-[70vh]">
+          <div key={index} className="w-full h-[30vh] md:h-[50vh] lg:h-[70vh]">
             <img
               src={image}
               alt="Carousel Image"

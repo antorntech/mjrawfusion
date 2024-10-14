@@ -34,7 +34,7 @@ const Career = () => {
               </button>
             </section>
 
-            <section className="mb-8 md:mb-28 flex flex-col md:flex-row items-center gap-12">
+            <section className="mb-8 md:mb-28 flex flex-col md:flex-row items-center gap-5 md:gap-12">
               <div className="w-full md:w-1/2">
                 <h3 className="text-xl md:text-3xl font-bold mb-2 md:mb-3 uppercase text-[#162C40]">
                   Would you like a little taste?

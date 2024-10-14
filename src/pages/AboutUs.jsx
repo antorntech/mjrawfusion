@@ -8,6 +8,7 @@ import OurStrength from "../components/about/OurStrength";
 import OurTeam from "../components/about/OurTeam";
 import GoverningBoard from "../components/about/GoverningBoard";
 import CompanyInformation from "../components/about/CompanyInformation";
+import OurTeamLatest from "../components/about/OurTeamLatest";
 
 const AboutUs = () => {
   return (
@@ -63,7 +64,7 @@ const AboutUs = () => {
         <OurStrength />
       </div>
       <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
-        <OurTeam />
+        <OurTeamLatest />
       </div>
       <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
         <GoverningBoard />
