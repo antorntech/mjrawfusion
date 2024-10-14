@@ -4,7 +4,7 @@ import PageHeader from "../components/PageHeader/PageHeader";
 const PrivacyPolicy = () => {
   return (
     <>
-      <PageHeader title="Privacy Policy" />
+      <PageHeader title="Privacy Policy" imageUrl="/images/pageheader.jpg" />
       <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg md:my-10">
         <div
           data-aos="fade-up"

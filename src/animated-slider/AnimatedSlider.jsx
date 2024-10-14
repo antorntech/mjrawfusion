@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./AnimatedSlider.css";
-import { Link } from "react-router-dom";
 
 // Sample slider images and texts
 const sliderData = [

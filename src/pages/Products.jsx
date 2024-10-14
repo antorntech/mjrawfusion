@@ -73,7 +73,7 @@ const Products = () => {
   ];
   return (
     <>
-      <PageHeader title="Products" />
+      <PageHeader title="Products" imageUrl="/images/pageheader.jpg" />
       <div className="px-5 md:px-0 py-[50px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-8">

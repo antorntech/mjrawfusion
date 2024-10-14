@@ -4,7 +4,7 @@ import PageHeader from "../PageHeader/PageHeader";
 const MariaAbout = () => {
   return (
     <div>
-      <PageHeader title="About Maria" />
+      <PageHeader title="About Maria" imageUrl="/images/pageheader.jpg" />
       <div className="w-full py-[20px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">
           <div className="mt-2">

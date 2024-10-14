@@ -4,7 +4,10 @@ import PageHeader from "../components/PageHeader/PageHeader";
 const TermsCondition = () => {
   return (
     <>
-      <PageHeader title="Terms & Conditions" />
+      <PageHeader
+        title="Terms & Conditions"
+        imageUrl="/images/pageheader.jpg"
+      />
       <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg md:my-10">
         <div
           data-aos="fade-up"

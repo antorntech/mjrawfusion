@@ -5,7 +5,7 @@ import HomeDivisions from "../components/home/HomeDivisions";
 const Divisions = () => {
   return (
     <>
-      <PageHeader title="Divisions" />
+      <PageHeader title="Divisions" imageUrl="/images/pageheader.jpg" />
       <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
         <HomeDivisions />
       </div>

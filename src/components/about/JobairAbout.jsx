@@ -4,7 +4,7 @@ import PageHeader from "../PageHeader/PageHeader";
 const JobairAbout = () => {
   return (
     <>
-      <PageHeader title="About Jobair" />
+      <PageHeader title="About Jobair" imageUrl="/images/pageheader.jpg" />
       <div className="w-full py-[20px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">
           <div>

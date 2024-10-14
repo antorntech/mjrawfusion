@@ -61,7 +61,10 @@ const ProductDetails = () => {
 
   return (
     <>
-      <PageHeader title={location.pathname.split("/").pop()} />
+      <PageHeader
+        title={location.pathname.split("/").pop()}
+        imageUrl="/images/pageheader.jpg"
+      />
       <div className="px-5 md:px-0 py-[20px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">
           <h1 className="text-xl md:text-3xl font-bold text-[#04CAFB]">

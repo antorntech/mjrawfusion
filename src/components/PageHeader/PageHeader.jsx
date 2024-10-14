@@ -1,13 +1,13 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const PageHeader = ({ title }) => {
+const PageHeader = ({ title, imageUrl }) => {
   const location = useLocation();
   return (
     <div
-      className="w-full mt-12 md:mt-0 h-[25vh] md:h-[60vh] flex justify-center items-center"
+      className="w-full mt-12 md:mt-0 h-[25vh] md:h-[70vh] flex justify-center items-center"
       style={{
-        backgroundImage: `url('/images/pageheader-bg.jpg')`,
+        backgroundImage: `url(${imageUrl})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

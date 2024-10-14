@@ -12,7 +12,7 @@ import CompanyInformation from "../components/about/CompanyInformation";
 const AboutUs = () => {
   return (
     <>
-      <PageHeader title="About Us" />
+      <PageHeader title="About Us" imageUrl="/images/pageheader.jpg" />
       <div className="px-5 md:px-0 pt-[20px] md:pt-[80px] lg:pt-[100px]">
         <div className="max-w-screen-xl mx-auto">
           <p className="text-md lg:text-lg text-[#162C40] text-center leading-relaxed">

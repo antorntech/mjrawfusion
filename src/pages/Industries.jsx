@@ -5,7 +5,7 @@ import HomeIndustries from "../components/home/HomeIndustries";
 const Industries = () => {
   return (
     <>
-      <PageHeader title="Industries" />
+      <PageHeader title="Industries" imageUrl="/images/pageheader.jpg" />
       <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
         <HomeIndustries />
       </div>

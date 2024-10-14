@@ -1,19 +1,20 @@
 import React from "react";
 import PageHeader from "../components/PageHeader/PageHeader";
 import { Link } from "react-router-dom";
+import CareerSlider from "../components/careerslider/CareerSlider";
 
 const Career = () => {
   return (
     <>
-      <PageHeader title="Career" />
+      <PageHeader title="Career" imageUrl="/images/careerbg.jpg" />
       <div className="px-5 md:px-0 py-[20px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">
-          <div className="p-8 font-sans">
-            <section className="mb-8">
+          <div className="">
+            <section className="mb-8 md:mb-28">
               <h2 className="text-xl md:text-3xl font-bold mb-2 md:mb-3 uppercase text-[#162C40]">
                 Your career at MJ Raw Fusion
               </h2>
-              <p className="mb-4">
+              <p className="mb-4 text-sm md:text-md lg:text-lg">
                 MJ Raw Fusion is a fast-growing distribution company based in
                 Dhaka, Bangladesh. As an employer, it is important to us to
                 create a cosmopolitan, collegial, and productive working
@@ -24,7 +25,7 @@ const Career = () => {
                 innovation. Together with our employees, we pursue the goal of
                 continuously improving and developing ourselves.
               </p>
-              <p className="mb-6">
+              <p className="mb-6 text-sm md:text-md lg:text-lg">
                 Do you also want to become part of our team? Then find out more
                 and apply now!
               </p>
@@ -33,37 +34,41 @@ const Career = () => {
               </button>
             </section>
 
-            <section className="mb-8">
-              <h3 className="text-xl md:text-3xl font-bold mb-2 md:mb-3 uppercase text-[#162C40]">
-                Would you like a little taste?
-              </h3>
-              <p className="mb-4">
-                Before you apply, we would like to give you a little insight
-                into the unique world of MJ Raw Fusion and our dynamic team.
-              </p>
-              <p>
-                Immerse yourself in our corporate culture and discover why we
-                are proud to be your employer of choice.
-              </p>
+            <section className="mb-8 md:mb-28 flex flex-col md:flex-row items-center gap-12">
+              <div className="w-full md:w-1/2">
+                <h3 className="text-xl md:text-3xl font-bold mb-2 md:mb-3 uppercase text-[#162C40]">
+                  Would you like a little taste?
+                </h3>
+                <p className="mb-4 text-sm md:text-md lg:text-lg">
+                  Before you apply, we would like to give you a little insight
+                  into the unique world of MJ Raw Fusion and our dynamic team.
+                </p>
+                <p className="text-sm md:text-md lg:text-lg">
+                  Immerse yourself in our corporate culture and discover why we
+                  are proud to be your employer of choice.
+                </p>
+              </div>
+              <div className="w-full md:w-1/2 rounded-md">
+                <img
+                  src="/images/little-tester.jpg"
+                  alt="little-tester.jpg"
+                  className="w-full rounded-md shadow-lg"
+                />
+              </div>
             </section>
 
-            <section className="mb-8">
-              <h3 className="text-xl md:text-3xl font-bold mb-2 md:mb-3 uppercase text-[#162C40]">
-                A look behind the scenes
-              </h3>
-
-              <h4 className="text-lg font-semibold mb-2">Vacancies:</h4>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>
-                  <strong>Trainee Executive, Full Time</strong>
-                </li>
-                <li>
-                  <strong>Logistics Coordinator, Full Time</strong>
-                </li>
-              </ul>
+            <section className="mb-8 md:mb-28">
+              <div>
+                <h3 className="text-xl md:text-3xl font-bold mb-5 md:mb-8 uppercase text-[#162C40]">
+                  A look behind the scenes
+                </h3>
+              </div>
+              <div>
+                <CareerSlider />
+              </div>
             </section>
 
-            <section className="mb-8">
+            <section className="mb-8 md:mb-28">
               <h3 className="text-xl md:text-3xl font-bold mb-2 md:mb-3 uppercase text-[#162C40]">
                 More Information
               </h3>

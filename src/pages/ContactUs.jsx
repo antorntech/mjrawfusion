@@ -6,7 +6,7 @@ import ContactMap from "../components/contact/ContactMap";
 const ContactUs = () => {
   return (
     <>
-      <PageHeader title="Contact Us" />
+      <PageHeader title="Contact Us" imageUrl="/images/pageheader.jpg" />
       <ContactSectionOne />
       <ContactMap />
     </>
