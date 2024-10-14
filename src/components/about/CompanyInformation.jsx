@@ -13,24 +13,24 @@ const CompanyInformation = () => {
       </h2>
       <section className="mb-5">
         <h2 className="text-xl font-semibold mb-2">MJ Raw Fusion</h2>
-        <p>
+        <p className="mb-2">
           <strong>Registered Address:</strong> 158/1, Rayerbazar (East),
           Hazaribagh, Dhaka -1209, Bangladesh.
         </p>
-        <p>
+        <p className="mb-2">
           <strong>Tax Identification No. (E-TIN):</strong> 449804324049/Taxes
           Circle-253
         </p>
-        <p>
+        <p className="mb-2">
           <strong>
             Bangladesh Indenting Agents' Association (Membership Certificate):
-          </strong>
+          </strong>{" "}
           Book No. 163, Serial No. 16286, Registration Sl. No. 2024/M12
         </p>
-        <p>
+        <p className="mb-2">
           <strong>E-mail address:</strong> info@mjrf.com
         </p>
-        <p>
+        <p className="mb-2">
           <strong>Website:</strong>{" "}
           <a
             href="https://www.mjrawfusion.com"

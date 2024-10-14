@@ -9,6 +9,7 @@ import OurTeam from "../components/about/OurTeam";
 import GoverningBoard from "../components/about/GoverningBoard";
 import CompanyInformation from "../components/about/CompanyInformation";
 import OurTeamLatest from "../components/about/OurTeamLatest";
+import TrainingDevelopment from "../components/about/TrainingDevelopment";
 
 const AboutUs = () => {
   return (
@@ -65,6 +66,9 @@ const AboutUs = () => {
       </div>
       <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
         <OurTeamLatest />
+      </div>
+      <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
+        <TrainingDevelopment />
       </div>
       <div className="pt-[20px] md:pt-[80px] lg:pt-[100px]">
         <GoverningBoard />
