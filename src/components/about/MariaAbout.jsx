@@ -3,10 +3,10 @@ import PageHeader from "../PageHeader/PageHeader";
 
 const MariaAbout = () => {
   return (
-    <div>
+    <>
       <PageHeader title="About Maria" imageUrl="/images/pageheader.jpg" />
       <div className="w-full py-[20px] md:py-[80px] lg:py-[100px]">
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-xl mx-auto px-5 md:px-0">
           <div className="mt-2">
             <h4 className="text-[#162C40] text-md md:text-xl font-semibold italic">
               Educational Qualification
@@ -59,7 +59,7 @@ const MariaAbout = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
