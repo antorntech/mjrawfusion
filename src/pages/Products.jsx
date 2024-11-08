@@ -6,115 +6,159 @@ const Products = () => {
   const products = [
     {
       id: 1,
-      name: "APIs & Blended Pellets",
-      image: "images/clients/sponsor-1.png",
+      name: "Pharmaceutical Raw Material (RM)",
     },
     {
       id: 2,
-      name: "Pharmaceutical Coatings",
-      image: "images/clients/sponsor-2.png",
+      name: "Pharmaceutical Packaging Material (PM)",
     },
     {
       id: 3,
-      name: "Fragrances & Essential Oils",
-      image: "images/clients/sponsor-3.png",
+      name: "Reference Standard (RS)/Chemical Reference Standard (CRS) [BP/USP/EP]",
     },
     {
       id: 4,
-      name: "Herbal Extracts & Vitamins",
-      image: "images/clients/sponsor-4.png",
+      name: "Working Standard (WS), Impurities and Degradation Impurities",
+    },
+    {
+      id: 5,
+      name: "Drug Intermediate",
+    },
+    {
+      id: 6,
+      name: "Analytical Chemical (Reagent, Solvent, Fine and Specialty Chemicals)",
+    },
+    {
+      id: 7,
+      name: "Lab Instruments/Equipment",
     },
   ];
 
   const services = [
     {
       id: 1,
-      title: "Turn Key Pharmaceuticals projects",
-      description:
-        "Conceptual design, Basic Engineering, detailed Engineering, Validation Master Plan, Supply, Installation and commissioning of HVAC, Clean room, Floor and all utilities",
-      icon: <i class="fa-solid fa-chart-pie text-[50px] text-[#04cafb]"></i>,
+      name: "API Micronization/Lyophilization",
     },
     {
       id: 2,
-      title: "Technological support",
-      description:
-        "We provide technological support for all Pharmaceutical discipline including biotechnology",
-      icon: (
-        <i class="fa-solid fa-book-bookmark text-[50px] text-[#04cafb]"></i>
-      ),
+      name: "Contract Research Service (CRO)",
     },
     {
       id: 3,
-      title: "Installation & commissioning",
-      description:
-        "Supply Installation & commissioning of process & Packaging Machineries for all discipline of Pharmaceuticals, Food & Cosmetics production facility",
-      icon: <i class="fa-solid fa-gauge text-[50px] text-[#04cafb]"></i>,
+      name: "CDMO (Regular API and HPAPI)",
     },
     {
       id: 4,
-      title: "Installation & validation",
-      description:
-        "Supply installation & validation of all kind of Laboratory instrument,inspection & security system required for Pharmaceutical industry",
-      icon: <i class="fa-solid fa-barcode text-[50px] text-[#04cafb]"></i>,
+      name: "Technology Development and Transfer Services",
     },
     {
       id: 5,
-      title: "Supply of Specialized devices",
-      description:
-        "For unit dose delivery/dispensing systems for pulmonary and Ear, Nose and Eye product. All kind of packaging materials required for pharmaceutical industry and also Raw materials and Excipient",
-      icon: <i class="fa-solid fa-people-group text-[50px] text-[#04cafb]"></i>,
+      name: "Drug Synthesis",
     },
     {
       id: 6,
-      title: "API & PVC",
-      description: "Turn Key API,PVC & Synthetic Leather Projects.",
-      icon: <i class="fa-brands fa-quinscape text-[50px] text-[#04cafb]"></i>,
+      name: "Bioequivalence Studies",
+    },
+    {
+      id: 7,
+      name: "Fixed Dose Combination",
+    },
+    {
+      id: 8,
+      name: "Pharmacovigilance",
+    },
+    {
+      id: 9,
+      name: "DMF Preparation, Filing and Dossier Service",
     },
   ];
   return (
     <>
       <PageHeader title="Products" imageUrl="/images/pageheader.jpg" />
-      <div className="px-5 md:px-0 py-[50px] md:py-[80px] lg:py-[100px]">
+      <div className="px-5 md:px-0 py-[50px] md:py-[80px]">
         <div className="max-w-screen-xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-8">
-            {products.map((product, index) => (
-              <Link
-                to={{
-                  pathname: `/products/${product.name
-                    .replace(/\s+/g, "-")
-                    .toLowerCase()}`,
-                }}
-                state={{
-                  id: product.id,
-                }}
-                key={index}
-                className="relative group flex items-center justify-center text-center border border-gray-300 transition-all duration-500 ease-in-out py-12 px-5 overflow-hidden rounded-md"
-              >
-                <div className="absolute inset-0 bg-gradient-to-l from-[#04cafb] to-[#039dda] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <p className="relative text-lg group-hover:text-white transition-all duration-500 z-10">
-                  {product.name}
-                </p>
-              </Link>
-            ))}
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 mt-12 md:mt-20">
-            {services.map((service) => (
-              <div
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-                key={service.id}
-                className="p-0 md:p-5 bg-white rounded-xl hover:shadow-xl transition-all duration-500"
-              >
-                <div className="flex items-center gap-3">
-                  {service.icon}
-                  <h3 className="text-lg md:text-xl font-bold">
-                    {service.title}
-                  </h3>
-                </div>
-                <p className="text-gray-500 mt-3">{service.description}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              data-aos-duration="1500"
+              className="col-span-1 new-shadow p-5 pb-12 rounded-3xl"
+            >
+              <div>
+                <h2 className="text-2xl md:text-4xl text-[#162C40] font-bold text-center mb-8 uppercase">
+                  Products
+                </h2>
               </div>
-            ))}
+              <div>
+                {products.map((product, index) => (
+                  <Link
+                    to={{
+                      pathname: `/products/${product.name
+                        .replace(/\s+/g, "-")
+                        .toLowerCase()}`,
+                    }}
+                    state={{
+                      id: product.id,
+                    }}
+                    key={index}
+                    className="relative group flex items-center text-start transition-all duration-500 ease-in-out overflow-hidden rounded-md p-2"
+                  >
+                    <div className="absolute inset-0 bg-gradient-to-l from-[#04cafb] to-[#039dda] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <p className="relative text-lg text-[#162C40] group-hover:text-white transition-all duration-500 z-10">
+                      {product.name}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="col-span-1 flex items-center justify-center">
+              <p className="text-center text-xl font-semibold text-red-500 cursor-pointer underline">
+                <i class="fa-solid fa-download"></i> Download Catalogue
+              </p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="col-span-1 flex items-center justify-center">
+              <p className="text-center text-xl font-semibold text-red-500 cursor-pointer underline">
+                <i class="fa-solid fa-download"></i> Download Catalogue
+              </p>
+            </div>
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              data-aos-duration="1500"
+              className="col-span-1 new-shadow p-5 rounded-3xl"
+            >
+              <div className="mb-8">
+                <h2 className="text-2xl md:text-4xl font-bold text-center mb-3 uppercase text-[#162C40]">
+                  Services
+                </h2>
+                <p className="text-md md:text-3xl text-[#162C40] text-center leading-relaxed">
+                  Advance Pharmaceutical Technology and Regulatory Support
+                </p>
+              </div>
+              <div>
+                {services.map((service, index) => (
+                  <Link
+                    to={{
+                      pathname: `/services/${service.name
+                        .replace(/\s+/g, "-")
+                        .toLowerCase()}`,
+                    }}
+                    state={{
+                      id: service.id,
+                    }}
+                    key={index}
+                    className="relative group flex items-center text-start transition-all duration-500 ease-in-out overflow-hidden rounded-md p-2"
+                  >
+                    <div className="absolute inset-0 bg-gradient-to-l from-[#04cafb] to-[#039dda] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <p className="relative text-lg text-[#162C40] group-hover:text-white transition-all duration-500 z-10">
+                      {service.name}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
