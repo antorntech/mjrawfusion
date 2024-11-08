@@ -9,10 +9,16 @@ import OurPrinciples from "../pages/OurPrinciples";
 import OurCustomers from "../pages/OurCustomers";
 import NewsLetter from "../pages/NewsLetter";
 import Career from "../pages/Career";
-import Products from "../pages/Products";
 import ProductDetails from "../pages/ProductDetails";
 import MariaAbout from "../components/about/MariaAbout";
 import JobairAbout from "../components/about/JobairAbout";
+import Products from "../pages/products/Products";
+import PRMMain from "../pages/products/PRM/PRMMain";
+import PPM from "../pages/products/PPM";
+import RSCRS from "../pages/products/RSCRS";
+import DRUGI from "../pages/products/DRUGI";
+import ANC from "../pages/products/ANC";
+import LIE from "../pages/products/LIE";
 
 const AppRoutes = () => {
   return (
@@ -23,6 +29,18 @@ const AppRoutes = () => {
         <Route path="/about-maria" element={<MariaAbout />} />
         <Route path="/about-jobair" element={<JobairAbout />} />
         <Route path="/products" element={<Products />} />
+        <Route
+          path="/products/Pharmaceutical-Raw-Material-(RM)"
+          element={<PRMMain />}
+        />
+        <Route
+          path="/products/Pharmaceutical-Packaging-Material-(PM)"
+          element={<PPM />}
+        />
+        <Route path="/products/Reference-Standard-(RS)" element={<RSCRS />} />
+        <Route path="/products/drug-intermediate" element={<DRUGI />} />
+        <Route path="/products/analytical-chemical" element={<ANC />} />
+        <Route path="/products/lab-instruments" element={<LIE />} />
         <Route path="/products/:slug" element={<ProductDetails />} />
         <Route path="/principals" element={<OurPrinciples />} />
         <Route path="/customers" element={<OurCustomers />} />

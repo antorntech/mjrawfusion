@@ -1,5 +1,5 @@
 import React from "react";
-import PageHeader from "../components/PageHeader/PageHeader";
+import PageHeader from "../../components/PageHeader/PageHeader";
 import { Link } from "react-router-dom";
 
 const Products = () => {
@@ -7,30 +7,32 @@ const Products = () => {
     {
       id: 1,
       name: "Pharmaceutical Raw Material (RM)",
+      link: "/products/Pharmaceutical-Raw-Material-(RM)",
     },
     {
       id: 2,
       name: "Pharmaceutical Packaging Material (PM)",
+      link: "/products/Pharmaceutical-Packaging-Material-(PM)",
     },
     {
       id: 3,
-      name: "Reference Standard (RS)/Chemical Reference Standard (CRS) [BP/USP/EP]",
+      name: "Reference Standard (RS)/Chemical Reference Standard (CRS) [BP/USP/EP], Working Standard (WS), Impurities and Degradation Impurities",
+      link: "/products/Reference-Standard-(RS)",
     },
     {
       id: 4,
-      name: "Working Standard (WS), Impurities and Degradation Impurities",
+      name: "Drug Intermediate",
+      link: "/products/drug-intermediate",
     },
     {
       id: 5,
-      name: "Drug Intermediate",
+      name: "Analytical Chemical (Reagent, Solvent, Fine and Specialty Chemicals)",
+      link: "/products/analytical-chemical",
     },
     {
       id: 6,
-      name: "Analytical Chemical (Reagent, Solvent, Fine and Specialty Chemicals)",
-    },
-    {
-      id: 7,
       name: "Lab Instruments/Equipment",
+      link: "/products/lab-instruments",
     },
   ];
 
@@ -93,9 +95,9 @@ const Products = () => {
                 {products.map((product, index) => (
                   <Link
                     to={{
-                      pathname: `/products/${product.name
+                      pathname: `${product.link
                         .replace(/\s+/g, "-")
-                        .toLowerCase()}`,
+                        .toString()}`,
                     }}
                     state={{
                       id: product.id,
