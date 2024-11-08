@@ -16,7 +16,7 @@ const Products = () => {
     },
     {
       id: 3,
-      name: "Reference Standard (RS)/Chemical Reference Standard (CRS) [BP/USP/EP], Working Standard (WS), Impurities and Degradation Impurities",
+      name: "Reference Standard (RS), Working Standard (WS), Impurities and Degradation Impurities",
       link: "/products/Reference-Standard-(RS)",
     },
     {
