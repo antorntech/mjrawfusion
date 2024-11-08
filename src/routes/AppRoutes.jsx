@@ -29,14 +29,8 @@ const AppRoutes = () => {
         <Route path="/about-maria" element={<MariaAbout />} />
         <Route path="/about-jobair" element={<JobairAbout />} />
         <Route path="/products" element={<Products />} />
-        <Route
-          path="/products/Pharmaceutical-Raw-Material-(RM)"
-          element={<PRMMain />}
-        />
-        <Route
-          path="/products/Pharmaceutical-Packaging-Material-(PM)"
-          element={<PPM />}
-        />
+        <Route path="/products/Raw-Material-(RM)" element={<PRMMain />} />
+        <Route path="/products/Packaging-Material-(PM)" element={<PPM />} />
         <Route path="/products/Reference-Standard-(RS)" element={<RSCRS />} />
         <Route path="/products/drug-intermediate" element={<DRUGI />} />
         <Route path="/products/analytical-chemical" element={<ANC />} />

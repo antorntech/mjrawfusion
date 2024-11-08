@@ -7,12 +7,12 @@ const Products = () => {
     {
       id: 1,
       name: "Pharmaceutical Raw Material (RM)",
-      link: "/products/Pharmaceutical-Raw-Material-(RM)",
+      link: "/products/Raw-Material-(RM)",
     },
     {
       id: 2,
       name: "Pharmaceutical Packaging Material (PM)",
-      link: "/products/Pharmaceutical-Packaging-Material-(PM)",
+      link: "/products/Packaging-Material-(PM)",
     },
     {
       id: 3,
