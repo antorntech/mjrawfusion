@@ -285,6 +285,14 @@ body {
   margin-bottom: 30px;
 }
 
+.fixlogos {
+  width: 30%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
 @media screen and (max-width: 768px) {
   .apilogos {
     grid-template-columns: repeat(2, 1fr);
