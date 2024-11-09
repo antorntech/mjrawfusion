@@ -50,7 +50,7 @@ const Products = () => {
     {
       id: 3,
       name: "CDMO (Regular API and HPAPI)",
-      link: "/services/cdmo",
+      link: "/services/contract-development-and-manufacturing-organization",
     },
     {
       id: 4,

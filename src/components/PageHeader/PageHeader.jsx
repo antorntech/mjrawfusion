@@ -24,11 +24,11 @@ const PageHeader = ({ title, imageUrl }) => {
       }}
     >
       <div className="max-w-screen-xl mx-auto">
-        <div className="w-full h-full flex flex-col items-center justify-center mt-5 md:mt-12">
-          <h1 className="mr-0 md:mr-[110px] capitalize text-white text-3xl lg:text-6xl font-bold animate__animated animate__fadeInUp">
+        <div className="w-full h-full flex flex-col items-center justify-center text-center mt-5 md:mt-12">
+          <h1 className="mr-0 capitalize text-white text-xl lg:text-4xl font-bold animate__animated animate__fadeInUp">
             {formattedPath ? formattedPath : title}
           </h1>
-          <div className="animate__animated animate__fadeInUp mt-1 md:mt-2 mr-0 md:mr-[110px]">
+          <div className="animate__animated animate__fadeInUp mt-1 md:mt-2 mr-0">
             <Link to="/" className="text-white text-sm md:text-lg">
               Home
             </Link>

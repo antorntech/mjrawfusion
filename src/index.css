@@ -265,6 +265,26 @@ body {
   justify-items: center;
 }
 
+.process {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.regulatory {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .apilogos {
     grid-template-columns: repeat(2, 1fr);
