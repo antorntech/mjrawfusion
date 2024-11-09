@@ -1,10 +1,15 @@
 import React, { useEffect } from "react";
 import PageHeader from "../../components/PageHeader/PageHeader";
+import { useLocation } from "react-router-dom";
 
-const LIE = () => {
+const ServiceDetails = () => {
+  const location = useLocation();
+
+  const path = location.pathname.split("/").pop();
+
   const [htmlText, setHtmlText] = React.useState("");
   useEffect(() => {
-    fetch("/pdfs/labi.html")
+    fetch(`/pdfs/${path}.html`)
       .then((res) => res.text())
       .then((data) => setHtmlText(data));
   }, []);
@@ -23,4 +28,4 @@ const LIE = () => {
   );
 };
 
-export default LIE;
+export default ServiceDetails;

@@ -40,38 +40,47 @@ const Products = () => {
     {
       id: 1,
       name: "API Micronization/Lyophilization",
+      link: "/services/api-micronization",
     },
     {
       id: 2,
       name: "Contract Research Service (CRO)",
+      link: "/services/contract-research-service",
     },
     {
       id: 3,
       name: "CDMO (Regular API and HPAPI)",
+      link: "/services/cdmo",
     },
     {
       id: 4,
       name: "Technology Development and Transfer Services",
+      link: "/services/technology-development-and-transfer-services",
     },
     {
       id: 5,
       name: "Drug Synthesis",
+      link: "/services/drug-synthesis",
     },
     {
       id: 6,
       name: "Bioequivalence Studies",
+      link: "/services/bioequivalence-studies",
     },
     {
       id: 7,
       name: "Fixed Dose Combination",
+      link: "/services/fixed-dose-combination",
     },
     {
       id: 8,
       name: "Pharmacovigilance",
+      link: "/services/pharmacovigilance",
     },
     {
       id: 9,
       name: "DMF Preparation, Filing and Dossier Service",
+      link: "/services/dmf-preparation-filing-and-dossier-service",
     },
   ];
   return (
@@ -143,7 +152,7 @@ const Products = () => {
                 {services.map((service, index) => (
                   <Link
                     to={{
-                      pathname: `/services/${service.name
+                      pathname: `${service.link
                         .replace(/\s+/g, "-")
                         .toLowerCase()}`,
                     }}
