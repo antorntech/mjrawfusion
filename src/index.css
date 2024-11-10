@@ -249,6 +249,10 @@ body {
 
 /* pdfs style */
 
+.html-wrapper {
+  font-family: Sailec Medium !important;
+}
+
 .apilogos {
   width: 70%;
   margin: auto;
