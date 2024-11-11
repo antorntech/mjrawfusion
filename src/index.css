@@ -561,4 +561,28 @@ table td {
     font-size: 12px;
     width: 80px;
   }
+
+  .top-left {
+    width: 300px;
+    top: 1%;
+    left: -20%;
+  }
+
+  .top-right {
+    width: 300px;
+    top: 10%;
+    right: -30%;
+  }
+
+  .bottom-left {
+    width: 300px;
+    bottom: 10%;
+    left: -25%;
+  }
+
+  .bottom-right {
+    width: 300px;
+    bottom: 0%;
+    right: -25%;
+  }
 }
