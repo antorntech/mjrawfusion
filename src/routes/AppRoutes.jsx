@@ -21,6 +21,7 @@ import ANC from "../pages/products/ANC";
 import LIE from "../pages/products/LIE";
 import ServiceDetails from "../pages/services/ServiceDetails";
 import NovelDrugApprovals from "../pages/products/PRM/NovelDrugApprovals";
+import ExistingMoleculeDetails from "../pages/products/PRM/existing-molecule/ExistingMoleculeDetails";
 
 const AppRoutes = () => {
   return (
@@ -44,6 +45,10 @@ const AppRoutes = () => {
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/termscondition" element={<TermsCondition />} />
         <Route path="/novel-drug-approvals" element={<NovelDrugApprovals />} />
+        <Route
+          path="/existing-molecule/:slug"
+          element={<ExistingMoleculeDetails />}
+        />
         <Route path="/news-letter" element={<NewsLetter />} />
         <Route path="/career" element={<Career />} />
         <Route path="/services/:slug" element={<ServiceDetails />} />

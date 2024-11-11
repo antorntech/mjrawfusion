@@ -84,21 +84,21 @@ const PRMMain = () => {
                           return (
                             <tr key={item.id}>
                               <td className="px-4 py-2">
-                                <a
-                                  href={tableData[index].link}
+                                <Link
+                                  to={tableData[index].link}
                                   className="text-blue-600 hover:underline"
                                 >
                                   {tableData[index].name}
-                                </a>
+                                </Link>
                               </td>
                               <td className="px-4 py-2">
                                 {tableData[index + 1] ? (
-                                  <a
-                                    href={tableData[index + 1].link}
+                                  <Link
+                                    to={tableData[index + 1].link}
                                     className="text-blue-600 hover:underline"
                                   >
                                     {tableData[index + 1].name}
-                                  </a>
+                                  </Link>
                                 ) : null}
                               </td>
                             </tr>
