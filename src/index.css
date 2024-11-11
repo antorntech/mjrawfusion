@@ -670,9 +670,10 @@ table td {
   }
 
   .drug-categories .category {
-    width: 100%;
+    width: 80%;
     height: auto;
     padding: 30px;
+    border-radius: 10px;
   }
 
   .drug-categories .category h3 {
