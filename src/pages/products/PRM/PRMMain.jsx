@@ -1,7 +1,35 @@
 import React from "react";
 import PageHeader from "../../../components/PageHeader/PageHeader";
+import { Link } from "react-router-dom";
 
 const PRMMain = () => {
+  const tableData = [
+    { id: 1, name: "Antibiotics", link: "/existing-molecule/antibiotics" },
+    { id: 2, name: "Anticoagulant", link: "/existing-molecule/anticoagulant" },
+    { id: 3, name: "Antidiabetic", link: "/existing-molecule/antidiabetic" },
+    { id: 4, name: "Antifungal", link: "/existing-molecule/antifungal" },
+    {
+      id: 5,
+      name: "Anti-inflammatory",
+      link: "/existing-molecule/anti-inflammatory",
+    },
+    {
+      id: 6,
+      name: "Bronchodilator & COPD",
+      link: "/existing-molecule/bronchodilator-copd",
+    },
+    {
+      id: 7,
+      name: "Antihypertensive",
+      link: "/existing-molecule/antihypertensive",
+    },
+    {
+      id: 8,
+      name: "Blended Pellets and Granules",
+      link: "/existing-molecule/blended-pellets-and-granules",
+    },
+    { id: 9, name: "Antipsychotic", link: "/existing-molecule/antipsychotic" },
+  ];
   return (
     <>
       <PageHeader
@@ -33,9 +61,12 @@ const PRMMain = () => {
                   Innovative Molecules
                 </h3>
                 <p class="ml-16 mt-2">
-                  <a href="#" class="text-blue-600 hover:underline">
+                  <Link
+                    to="/novel-drug-approvals"
+                    class="text-blue-600 hover:underline"
+                  >
                     Novel Drug Approvals | FDA
-                  </a>
+                  </Link>
                 </p>
               </div>
 
@@ -47,62 +78,34 @@ const PRMMain = () => {
                 <div class="mt-2 overflow-x-auto">
                   <table class="w-full md:w-1/2 ml-12">
                     <tbody>
-                      <tr>
-                        <td class="px-4 py-2">
-                          <a href="#" class="text-blue-600 hover:underline">
-                            Antibiotics
-                          </a>
-                        </td>
-                        <td class="px-4 py-2">
-                          <a href="#" class="text-blue-600 hover:underline">
-                            Anticoagulant
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="px-4 py-2">
-                          <a href="#" class="text-blue-600 hover:underline">
-                            Antidiabetic
-                          </a>
-                        </td>
-                        <td class="px-4 py-2">
-                          <a href="#" class="text-blue-600 hover:underline">
-                            Antifungal
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="px-4 py-2">
-                          <a href="#" class="text-blue-600 hover:underline">
-                            Anti-inflammatory
-                          </a>
-                        </td>
-                        <td class="px-4 py-2">
-                          <a href="#" class="text-blue-600 hover:underline">
-                            Bronchodilator & COPD
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="px-4 py-2">
-                          <a href="#" class="text-blue-600 hover:underline">
-                            Antihypertensive
-                          </a>
-                        </td>
-                        <td class="px-4 py-2">
-                          <a href="#" class="text-blue-600 hover:underline">
-                            Blended Pellets and Granules
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="px-4 py-2">
-                          <a href="#" class="text-blue-600 hover:underline">
-                            Antipsychotic
-                          </a>
-                        </td>
-                        <td class="px-4 py-2"></td>
-                      </tr>
+                      {tableData.map((item, index) => {
+                        // Check if the index is even to create rows in pairs
+                        if (index % 2 === 0) {
+                          return (
+                            <tr key={item.id}>
+                              <td className="px-4 py-2">
+                                <a
+                                  href={tableData[index].link}
+                                  className="text-blue-600 hover:underline"
+                                >
+                                  {tableData[index].name}
+                                </a>
+                              </td>
+                              <td className="px-4 py-2">
+                                {tableData[index + 1] ? (
+                                  <a
+                                    href={tableData[index + 1].link}
+                                    className="text-blue-600 hover:underline"
+                                  >
+                                    {tableData[index + 1].name}
+                                  </a>
+                                ) : null}
+                              </td>
+                            </tr>
+                          );
+                        }
+                        return null;
+                      })}
                     </tbody>
                   </table>
                 </div>
