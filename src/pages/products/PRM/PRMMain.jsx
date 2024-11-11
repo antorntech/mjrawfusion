@@ -50,7 +50,7 @@ const PRMMain = () => {
           </div>
           <div class="pt-12 space-y-4">
             {/* <!-- APIs Section --> */}
-            <div>
+            <div style={{ padding: "5px" }}>
               <h2 class="text-xl md:text-2xl font-bold text-[#162C40]">
                 APIs (Active Pharmaceutical Ingredients)
               </h2>
