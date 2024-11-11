@@ -670,8 +670,12 @@ table td {
   }
 
   .drug-categories .category {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     padding: 30px;
+  }
+
+  .drug-categories .category h3 {
+    font-size: 16px;
   }
 }

@@ -38,7 +38,7 @@ const PRMMain = () => {
       />
       <div className="py-[20px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">
-          <div>
+          <div style={{ padding: "5px" }}>
             <p className="text-md lg:text-lg text-[#162C40] text-center leading-relaxed">
               We have an offer of a highly effective range of active
               pharmaceutical ingredients, which are extensively used for making
