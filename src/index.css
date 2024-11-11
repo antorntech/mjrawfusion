@@ -500,6 +500,32 @@ table td {
   font-size: 14px;
 }
 
+.instrumentswrapper {
+  display: grid;
+  gap: 60px 20px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  place-items: center;
+}
+
+.instrumentswrapper .instrumentsbox {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.instrumentswrapper .instrumentsbox h2 {
+  color: #162c40;
+  font-size: 14px;
+  text-align: center;
+}
+
+.instrumentswrapper .instrumentsbox img {
+  width: 200px;
+  aspect-ratio: 1/1;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   h1 {
@@ -596,5 +622,9 @@ table td {
     width: 300px;
     bottom: 0%;
     right: -25%;
+  }
+
+  .instrumentswrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
