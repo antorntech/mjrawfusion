@@ -526,6 +526,42 @@ table td {
   aspect-ratio: 1/1;
 }
 
+.bold-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.drug-categories {
+  display: grid;
+  gap: 60px 20px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  place-items: center;
+}
+
+.drug-categories .category {
+  border-radius: 100%;
+  background: #757f9a;
+  background: -webkit-linear-gradient(to right, #d7dde8, #757f9a);
+  background: linear-gradient(to right, #d7dde8, #757f9a);
+  padding: 50px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drug-categories .category h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0272db;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   h1 {
@@ -626,5 +662,16 @@ table td {
 
   .instrumentswrapper {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .drug-categories {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .drug-categories .category {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
   }
 }

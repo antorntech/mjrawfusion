@@ -16,7 +16,7 @@ const PRMMain = () => {
     {
       id: 6,
       name: "Bronchodilator & COPD",
-      link: "/existing-molecule/bronchodilator-copd",
+      link: "/existing-molecule/bronchodilator-and-copd",
     },
     {
       id: 7,
