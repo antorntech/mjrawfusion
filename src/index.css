@@ -562,6 +562,22 @@ table td {
   text-decoration: underline;
 }
 
+.anti-inflammatory {
+  width: 50%;
+  margin: auto;
+}
+
+.anti-inflammatory .category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.anti-inflammatory .category .title {
+  color: #0272db;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   h1 {
@@ -678,5 +694,14 @@ table td {
 
   .drug-categories .category h3 {
     font-size: 16px;
+  }
+
+  .anti-inflammatory {
+    width: 98%;
+    margin: auto;
+  }
+
+  .anti-inflammatory .category .title {
+    text-align: right;
   }
 }
