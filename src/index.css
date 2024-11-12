@@ -578,6 +578,14 @@ table td {
   color: #0272db;
 }
 
+.antifungal-wrapper {
+  gap: 200px;
+  margin: auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   h1 {
@@ -703,5 +711,11 @@ table td {
 
   .anti-inflammatory .category .title {
     text-align: right;
+  }
+
+  .antifungal-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 }
