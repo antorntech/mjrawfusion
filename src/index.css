@@ -680,6 +680,13 @@ td {
   display: block;
 }
 
+.color-image-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   h1 {
@@ -827,5 +834,9 @@ td {
 
   .herbal-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .color-image-wrapper {
+    flex-direction: column;
+    align-items: center;
   }
 }
