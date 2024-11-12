@@ -117,14 +117,17 @@ const PRMMain = () => {
               <h3 class="font-semibold text-[#162C40]">Strategic Pipeline</h3>
               <ul class="list-none ml-16 mt-2">
                 <li>
-                  <a href="#" class="text-blue-600 hover:underline">
+                  <Link to="/oncology" class="text-blue-600 hover:underline">
                     Oncology
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" class="text-blue-600 hover:underline">
+                  <Link
+                    to="/hormone-and-steroid"
+                    class="text-blue-600 hover:underline"
+                  >
                     Hormone and Steroid
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

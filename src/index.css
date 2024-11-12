@@ -758,6 +758,10 @@ td {
     gap: 20px;
   }
 
+  .blended-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .blended-wrapper thead th {
     font-size: 0.9rem;
   }
