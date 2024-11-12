@@ -24,6 +24,7 @@ import NovelDrugApprovals from "../pages/products/PRM/NovelDrugApprovals";
 import ExistingMoleculeDetails from "../pages/products/PRM/existing-molecule/ExistingMoleculeDetails";
 import Oncology from "../pages/products/PRM/strategic-pipeline/Oncology";
 import HormoneAndSteroid from "../pages/products/PRM/strategic-pipeline/HormoneAndSteroid";
+import ExtraDetails from "../pages/products/PRM/extra/ExtraDetails";
 
 const AppRoutes = () => {
   return (
@@ -55,6 +56,7 @@ const AppRoutes = () => {
         <Route path="/oncology" element={<Oncology />} />
         <Route path="/hormone-and-steroid" element={<HormoneAndSteroid />} />
         <Route path="/career" element={<Career />} />
+        <Route path="/:slug" element={<ExtraDetails />} />
         <Route path="/services/:slug" element={<ServiceDetails />} />
         <Route path="*" element={<Home />} />
       </Routes>

@@ -30,6 +30,16 @@ const PRMMain = () => {
     },
     { id: 9, name: "Antipsychotic", link: "/existing-molecule/antipsychotic" },
   ];
+
+  const extraroutes = [
+    { name: "Excipients", path: "/excipients" },
+    { name: "Herbal and Plant Extract", path: "/herbal-and-plant-extract" },
+    { name: "Colors and Coatings", path: "/colors-and-coatings" },
+    { name: "Flavors and Essential Oils", path: "/flavors-and-essential-oils" },
+    { name: "Animal Health", path: "/animal-health" },
+    { name: "Vitamin and Minerals", path: "/vitamin-and-minerals" },
+    { name: "Nutraceuticals", path: "/nutraceuticals" },
+  ];
   return (
     <>
       <PageHeader
@@ -133,28 +143,16 @@ const PRMMain = () => {
             </div>
 
             {/* <!-- Additional Categories as Links --> */}
-            <div class="space-y-2 ml-4 flex flex-col">
-              <a href="#" class="font-semibold text-[#162C40] hover:underline">
-                Excipients
-              </a>
-              <a href="#" class="font-semibold text-[#162C40] hover:underline">
-                Herbal and Plant Extract
-              </a>
-              <a href="#" class="font-semibold text-[#162C40] hover:underline">
-                Colors and Coatings
-              </a>
-              <a href="#" class="font-semibold text-[#162C40] hover:underline">
-                Flavors and Essential Oils
-              </a>
-              <a href="#" class="font-semibold text-[#162C40] hover:underline">
-                Animal Health
-              </a>
-              <a href="#" class="font-semibold text-[#162C40] hover:underline">
-                Vitamin and Minerals
-              </a>
-              <a href="#" class="font-semibold text-[#162C40] hover:underline">
-                Nutraceuticals
-              </a>
+            <div className="space-y-2 ml-4 flex flex-col">
+              {extraroutes.map((route, index) => (
+                <Link
+                  key={index}
+                  to={route.path}
+                  className="font-semibold text-[#162C40] hover:underline"
+                >
+                  {route.name}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
