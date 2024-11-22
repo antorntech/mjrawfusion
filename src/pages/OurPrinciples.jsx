@@ -6,7 +6,7 @@ const OurPrinciples = () => {
   return (
     <>
       <PageHeader title="Principals" imageUrl="/images/pageheader.jpg" />
-      <div className="pb-[150px] md:pb-[100px] principals-bg">
+      <div className="py-[150px] md:py-[100px] principals-bg">
         <Principals />
       </div>
     </>

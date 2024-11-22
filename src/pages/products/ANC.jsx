@@ -12,7 +12,7 @@ const ANC = () => {
     <>
       <PageHeader
         title={"Pharmaceutical Raw Material (RM)"}
-        imageUrl="/images/pageheader.jpg"
+        imageUrl="/images/analytical-chemical.jpg"
       />
       <div className="py-[20px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">
