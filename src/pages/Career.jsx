@@ -1,12 +1,15 @@
 import React from "react";
 import PageHeader from "../components/PageHeader/PageHeader";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import CareerSlider from "../components/careerslider/CareerSlider";
 
 const Career = () => {
+  const location = useLocation();
+
+  const path = location.pathname.split("/").pop();
   return (
     <>
-      <PageHeader title="Career" imageUrl="/images/careerbg.jpg" />
+      <PageHeader title="Career" imageUrl={`/images/${path}.jpg`} />
       <div className="px-5 md:px-0 py-[20px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">
           <div className="">

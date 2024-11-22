@@ -123,13 +123,13 @@ const Header = () => {
                   Career
                 </Link>
                 <hr className="text-gray-300" />
-                <Link
+                {/* <Link
                   to="/news-letter"
                   className="hover:text-[#04cafb] transition-colors duration-300"
                 >
                   News Letter
                 </Link>
-                <hr className="text-gray-300" />
+                <hr className="text-gray-300" /> */}
                 <Link
                   to="/contactus"
                   className="hover:text-[#04cafb] transition-colors duration-300"
