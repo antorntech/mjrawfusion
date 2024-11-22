@@ -5,6 +5,12 @@ import { Link } from "react-router-dom";
 const PRMMain = () => {
   const tableData = [
     { id: 1, name: "Antibiotics", link: "/existing-molecule/antibiotics" },
+    {
+      id: 1,
+      name: "Antidepressant",
+      link: "/existing-molecule/antidepressant",
+    },
+    { id: 2, name: "Antiviral", link: "/existing-molecule/antiviral" },
     { id: 2, name: "Anticoagulant", link: "/existing-molecule/anticoagulant" },
     { id: 3, name: "Antidiabetic", link: "/existing-molecule/antidiabetic" },
     { id: 4, name: "Antifungal", link: "/existing-molecule/antifungal" },
