@@ -5,12 +5,12 @@ const OurProducts = () => {
   const products = [
     {
       id: 1,
-      name: "Raw Materials",
+      name: "Raw-Material-(RM)",
       image: "images/products1.jpeg",
     },
     {
       id: 2,
-      name: "Packaging Materials ",
+      name: "Packaging-Material-(PM)",
       image: "images/products2.jpg",
     },
     {
