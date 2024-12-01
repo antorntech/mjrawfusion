@@ -115,8 +115,9 @@ const Products = () => {
                     className="relative group flex items-center text-start transition-all duration-500 ease-in-out overflow-hidden rounded-md p-2"
                   >
                     <div className="absolute inset-0 bg-gradient-to-l from-[#04cafb] to-[#039dda] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <p className="relative text-lg text-[#162C40] group-hover:text-white transition-all duration-500 z-10">
+                    <p className="relative underline text-lg text-[#162C40] group-hover:text-white transition-all duration-500 group-hover:no-underline z-10">
                       {product.name}
+                      <i class="fa-solid fa-arrow-right -rotate-45 ml-2 group-hover:hidden"></i>
                     </p>
                   </Link>
                 ))}
@@ -144,7 +145,7 @@ const Products = () => {
                 <h2 className="text-2xl md:text-4xl font-bold text-center mb-3 uppercase text-[#162C40]">
                   Services
                 </h2>
-                <p className="text-md md:text-3xl text-[#162C40] text-center leading-relaxed">
+                <p className="text-md md:text-xl text-[#162C40] text-center leading-relaxed">
                   Advance Pharmaceutical Technology and Regulatory Support
                 </p>
               </div>
@@ -163,8 +164,9 @@ const Products = () => {
                     className="relative group flex items-center text-start transition-all duration-500 ease-in-out overflow-hidden rounded-md p-2"
                   >
                     <div className="absolute inset-0 bg-gradient-to-l from-[#04cafb] to-[#039dda] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <p className="relative text-lg text-[#162C40] group-hover:text-white transition-all duration-500 z-10">
+                    <p className="relative underline group-hover:no-underline text-lg text-[#162C40] group-hover:text-white transition-all duration-500 z-10">
                       {service.name}
+                      <i class="fa-solid fa-arrow-right -rotate-45 ml-2 group-hover:hidden"></i>
                     </p>
                   </Link>
                 ))}

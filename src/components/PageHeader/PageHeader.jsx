@@ -16,7 +16,7 @@ const PageHeader = ({ title, imageUrl }) => {
 
   return (
     <div
-      className="w-full mt-12 md:mt-0 h-[25vh] md:h-[60vh] lg:h-[70vh]"
+      className="w-full mt-12 md:mt-0 h-[25vh] md:h-[60vh] lg:h-[75vh]"
       style={{
         backgroundImage: `url(${imageUrl})`,
         backgroundSize: "100% 100%",
