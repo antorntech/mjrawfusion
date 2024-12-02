@@ -6,7 +6,7 @@ const PPM = () => {
     <>
       <PageHeader
         title={location.pathname.split("/").pop()}
-        imageUrl="/images/pageheader.jpg"
+        imageUrl="/images/packaging-materials.jpg"
       />
 
       <div className="py-[20px] md:py-[80px] lg:py-[100px]">

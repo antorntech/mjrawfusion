@@ -4,6 +4,7 @@ import PageHeader from "../components/PageHeader/PageHeader";
 
 const ProductDetails = () => {
   const location = useLocation();
+  const path = location.pathname.split("/").pop();
   // Access the id from location state
   const { id } = location.state || {};
 
