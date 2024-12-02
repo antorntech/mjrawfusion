@@ -8,46 +8,49 @@ const WorkingArea = () => {
   const products = [
     {
       id: 1,
+      link: "/services/api-micronization",
       name: "API Micronization/Lyophilization",
       image: "images/clients/sponsor-1.png",
     },
     {
       id: 2,
+      link: "/services/contract-development-and-manufacturing-organization",
       name: "CDMO (Regular API and HPAPI)",
       image: "images/clients/sponsor-2.png",
     },
     {
       id: 3,
+      link: "/services/technology-development-and-transfer-services",
       name: "Technology Development and Transfer Services",
       image: "images/clients/sponsor-3.png",
     },
     {
       id: 4,
-      name: "Customized APIs, Pellets, Taste Masked Granules",
-      image: "images/clients/sponsor-4.png",
-    },
-    {
-      id: 5,
+      link: "/services/drug-synthesis",
       name: "Drug Synthesis",
       image: "images/clients/sponsor-5.png",
     },
     {
-      id: 6,
+      id: 5,
+      link: "/services/bioequivalence-studies",
       name: "Bioequivalence Studies",
       image: "images/clients/sponsor-6.png",
     },
     {
-      id: 7,
+      id: 6,
+      link: "/services/fixed-dose-combination",
       name: "Fixed Dose Combination",
       image: "images/clients/sponsor-7.png",
     },
     {
-      id: 8,
+      id: 7,
+      link: "/services/pharmacovigilance",
       name: "Pharmacovigilence",
       image: "images/clients/sponsor-8.png",
     },
     {
-      id: 9,
+      id: 8,
+      link: "/services/dmf-preparation-filing-and-dossier-service",
       name: "DMF Preparation, Filling and Dossier Service",
       image: "images/clients/sponsor-9.png",
     },
@@ -112,14 +115,7 @@ const WorkingArea = () => {
         <Slider {...settings}>
           {products.map((product, index) => (
             <Link
-              to={{
-                pathname: `/products/${product.name
-                  .replace(/\s+/g, "-")
-                  .toLowerCase()}`,
-              }}
-              state={{
-                id: product.id,
-              }}
+              to={product.link}
               key={index}
               className="relative group flex items-center justify-center text-center transition-all duration-500 ease-in-out py-12 px-5 overflow-hidden rounded-md"
             >
