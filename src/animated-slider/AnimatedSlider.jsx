@@ -4,12 +4,12 @@ import "./AnimatedSlider.css";
 // Sample slider images and texts
 const sliderData = [
   {
-    image: "/images/1.jpg",
+    image: "/images/2.jpg",
     heading: "Sourcing Excellence",
     description: "Get The Best Service From MJ RAW FUSION",
   },
   {
-    image: "/images/2.jpg",
+    image: "/images/1.jpg",
     heading: "Sourcing Excellence",
     description: "Get The Best Service From MJ RAW FUSION",
   },
