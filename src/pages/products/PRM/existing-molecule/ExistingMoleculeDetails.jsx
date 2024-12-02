@@ -17,7 +17,7 @@ const ExistingMoleculeDetails = () => {
     <>
       <PageHeader
         title={location.pathname.split("/").pop()}
-        imageUrl="/images/pageheader.jpg"
+        imageUrl={`/images/${path}.jpg`}
       />
       <div className="py-[20px] md:py-[80px] lg:py-[100px]">
         <div className="max-w-screen-xl mx-auto">

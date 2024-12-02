@@ -24,7 +24,7 @@ const GoverningBoard = () => {
                 <img
                   src="/images/gboard2.jpg"
                   alt="gboard2.jpg"
-                  className="w-full rounded-md md:absolute md:top-3 md:left-3"
+                  className="w-full md:w-[300px] md:h-[200px] rounded-md md:absolute md:top-3 md:left-3"
                 />
               </div>
               <div className="col-span-2 flex flex-col justify-center mt-2 md:mt-0 mb-5 md:mb-0">
@@ -67,7 +67,7 @@ const GoverningBoard = () => {
                 <img
                   src="/images/gboard1.jpg"
                   alt="gboard1.jpg"
-                  className="w-full rounded-md md:absolute md:top-3 md:left-3"
+                  className="w-full md:w-[300px] md:h-[200px] rounded-md md:absolute md:top-3 md:left-3"
                 />
               </div>
               <div className="col-span-2 flex flex-col justify-center mt-2 md:mt-0 mb-5 md:mb-0">
