@@ -49,6 +49,8 @@
   align-items: center;
   background: rgba(0, 0, 0, 0.199);
   box-shadow: 0 8px 32px 0 rgba(135, 31, 126, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
 /* Delay the text animation .slide-content.show {
