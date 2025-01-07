@@ -44,7 +44,8 @@ const ContactSectionOne = () => {
                   Location
                 </h2>
                 <p className="mt-2 text-gray-700">
-                  158/1, Rayerbazar, Hazaribagh, <br /> Dhaka-1209 Bangladesh
+                  180 Green Road, Kalabagan, Dhanmondi, <br /> Dhaka-1205,
+                  Bangladesh
                 </p>
               </div>
             </div>

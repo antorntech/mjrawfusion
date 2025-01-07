@@ -86,9 +86,9 @@ const Career = () => {
                 <br />
                 Ms. Sumaiya
                 <br />
-                158/1, Rayerbazar, Hazaribagh,
+                180 Green Road, Kalabagan, Dhanmondi,
                 <br />
-                Dhaka-1209
+                Dhaka-1205, Bangladesh
               </p>
               <p className="mt-4">
                 If you have any further questions about the application process,

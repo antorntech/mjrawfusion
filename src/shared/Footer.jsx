@@ -31,7 +31,11 @@ const Footer = () => {
                 Establishment.
               </p>
               <div className="flex items-center gap-3">
-                <Link className="border-2 border-white rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500">
+                <Link
+                  to="https://www.facebook.com/profile.php?id=61571713464459"
+                  target="_blank"
+                  className="border-2 border-white rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500"
+                >
                   <i class="fa-brands fa-facebook-f text-white text-lg"></i>
                 </Link>
                 <Link className="border-2 border-white rounded-md w-10 h-10 flex justify-center items-center hover:border-[#04cafb] hover:bg-gradient-to-l hover:from-[#04cafb] hover:to-[#039dda] transition-all duration-500">
@@ -54,7 +58,7 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-[1px] mt-3 bg-white"></div>
                   <span className="text-white">
-                    158/1, Rayerbazar, Hazaribagh, Dhaka-1209 Bangladesh
+                    180 Green Road, Kalabagan, Dhanmondi, Dhaka-1205, Bangladesh
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
